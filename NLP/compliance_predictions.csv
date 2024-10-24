@@ -1,0 +1,11 @@
+text,predictions
+"pineapple brand_4 calories: 235, carbs: 25g, protein: 10g 2004-11-17 ",not compliant
+"okra brand_3 calories: 79, carbs: 42g, protein: 8g 2025-10-21 who",compliant
+"bittergourd brand_4 calories: 76, carbs: 25g, protein: 3g 2025-01-18 who",compliant
+"pineapple brand_5 calories: 232, carbs: 31g, protein: 8g 2021-06-13 fssai, eu",not compliant
+"potato brand_8 calories: 298, carbs: 35g, protein: 4g 2025-08-27 usda, who",compliant
+"oranges brand_4 calories: 222, carbs: 19g, protein: 2g 2024-04-23 eu, fssai",not compliant
+"apple brand_9 calories: 190, carbs: 29g, protein: 2g 2025-03-02 ",not compliant
+"okra brand_1 calories: 73, carbs: 27g, protein: 8g 2025-07-06 usda",compliant
+"okra brand_1 calories: 227, carbs: 28g, protein: 2g 2025-01-26 none, fssai",not compliant
+"cucumber brand_9 calories: 111, carbs: 10g, protein: 6g 2025-02-02 none, who",not compliant

@@ -1,0 +1,201 @@
+product_name,brand,nutritional_info,expiration_date,regulatory_notes,label
+Okra,Brand_1,"Fat: 4g, Sugar: 0g",2024-10-04,"WHO, FDA",0
+Cucumber,Brand_7,"Fat: 1g, Sugar: 3g",2025-05-30,"EU, FSSAI, USDA",1
+Capsicum,Brand_6,"Fat: 4g, Sugar: 4g",2025-07-20,"USDA, EU, FDA",1
+Banana,Brand_7,"Fat: 4g, Sugar: 2g",2024-07-17,WHO,0
+Apple,Brand_2,"Fat: 3g, Sugar: 2g",2024-03-09,"EU, USDA, FSSAI, FDA",0
+Banana,Brand_7,"Fat: 1g, Sugar: 4g",2025-05-04,FDA,1
+Cucumber,Brand_5,"Fat: 2g, Sugar: 0g",2025-05-25,"WHO, FDA",1
+Pineapple,Brand_9,"Fat: 1g, Sugar: 2g",2025-05-07,"FDA, FSSAI, EU, WHO, USDA",1
+Apple,Brand_2,"Fat: 4g, Sugar: 0g",2025-01-19,"USDA, FDA, FSSAI, EU",1
+Banana,Brand_4,"Fat: 5g, Sugar: 3g",2025-07-22,"WHO, USDA",1
+Apple,Brand_2,"Fat: 0g, Sugar: 0g",2024-04-30,EU,0
+Oranges,Brand_5,"Fat: 0g, Sugar: 1g",2025-05-20,"USDA, FSSAI, WHO, EU, FDA",1
+Potato,Brand_5,"Fat: 3g, Sugar: 1g",2025-08-04,"WHO, FSSAI",1
+Pineapple,Brand_6,"Fat: 1g, Sugar: 1g",2025-03-01,"EU, WHO, FSSAI, FDA",1
+Apple,Brand_3,"Fat: 5g, Sugar: 5g",2024-05-26,"WHO, USDA, EU",0
+Cucumber,Brand_6,"Fat: 5g, Sugar: 4g",2024-09-19,"FSSAI, EU, USDA, FDA",0
+Pineapple,Brand_7,"Fat: 1g, Sugar: 2g",2024-03-30,"USDA, FSSAI, FDA",0
+Okra,Brand_10,"Fat: 4g, Sugar: 5g",2024-01-13,"FSSAI, FDA, WHO",0
+Pineapple,Brand_6,"Fat: 2g, Sugar: 2g",2025-04-29,"FDA, EU",1
+Capsicum,Brand_10,"Fat: 3g, Sugar: 3g",2025-07-19,WHO,1
+Potato,Brand_3,"Fat: 4g, Sugar: 1g",2024-10-27,"FDA, WHO, USDA",1
+Potato,Brand_7,"Fat: 2g, Sugar: 1g",2024-09-14,"FDA, EU, WHO",0
+Bittergourd,Brand_5,"Fat: 5g, Sugar: 5g",2025-02-02,USDA,1
+Pineapple,Brand_3,"Fat: 0g, Sugar: 4g",2024-06-01,"USDA, FSSAI, WHO",0
+Bittergourd,Brand_1,"Fat: 0g, Sugar: 5g",2024-04-13,FSSAI,0
+Capsicum,Brand_4,"Fat: 3g, Sugar: 2g",2025-06-03,"WHO, EU, FDA, FSSAI",1
+Pineapple,Brand_10,"Fat: 5g, Sugar: 0g",2024-07-27,FSSAI,0
+Bittergourd,Brand_7,"Fat: 3g, Sugar: 0g",2024-07-09,WHO,0
+Pineapple,Brand_1,"Fat: 1g, Sugar: 2g",2025-03-23,"FDA, WHO, EU, FSSAI, USDA",1
+Apple,Brand_5,"Fat: 0g, Sugar: 2g",2025-01-19,"EU, WHO",1
+Bittergourd,Brand_7,"Fat: 5g, Sugar: 5g",2024-10-24,"FDA, USDA",0
+Capsicum,Brand_1,"Fat: 4g, Sugar: 5g",2024-06-24,"WHO, FSSAI, USDA, FDA",0
+Bittergourd,Brand_2,"Fat: 0g, Sugar: 1g",2024-08-24,"EU, WHO",0
+Banana,Brand_5,"Fat: 2g, Sugar: 1g",2025-07-20,EU,1
+Banana,Brand_9,"Fat: 1g, Sugar: 0g",2025-06-28,"FSSAI, USDA",1
+Bittergourd,Brand_7,"Fat: 5g, Sugar: 5g",2024-11-05,"FSSAI, WHO, EU, FDA, USDA",1
+Okra,Brand_9,"Fat: 3g, Sugar: 0g",2025-06-03,USDA,1
+Potato,Brand_10,"Fat: 4g, Sugar: 5g",2024-11-13,FSSAI,1
+Bittergourd,Brand_3,"Fat: 1g, Sugar: 0g",2024-03-01,"FDA, USDA, FSSAI, WHO",0
+Potato,Brand_4,"Fat: 2g, Sugar: 2g",2025-08-09,"FDA, FSSAI, USDA",1
+Bittergourd,Brand_7,"Fat: 0g, Sugar: 5g",2025-01-06,"FDA, FSSAI, EU",1
+Cucumber,Brand_8,"Fat: 1g, Sugar: 3g",2024-10-30,"WHO, EU, FSSAI, FDA, USDA",1
+Tomato,Brand_4,"Fat: 2g, Sugar: 5g",2024-01-23,"WHO, EU, FSSAI",0
+Okra,Brand_5,"Fat: 2g, Sugar: 5g",2024-09-14,"FDA, FSSAI, EU, WHO, USDA",0
+Apple,Brand_5,"Fat: 2g, Sugar: 4g",2025-06-21,"FSSAI, WHO, USDA, EU, FDA",1
+Potato,Brand_5,"Fat: 2g, Sugar: 0g",2025-07-07,WHO,1
+Oranges,Brand_2,"Fat: 1g, Sugar: 1g",2024-08-13,"USDA, FSSAI, WHO",0
+Banana,Brand_2,"Fat: 2g, Sugar: 2g",2023-11-02,"FDA, USDA, WHO, FSSAI, EU",0
+Apple,Brand_4,"Fat: 4g, Sugar: 1g",2024-01-05,"EU, FDA, FSSAI, USDA",0
+Potato,Brand_5,"Fat: 0g, Sugar: 3g",2025-10-02,"WHO, FDA",1
+Pineapple,Brand_3,"Fat: 5g, Sugar: 0g",2024-08-04,"EU, USDA, FDA",0
+Oranges,Brand_7,"Fat: 5g, Sugar: 4g",2025-04-10,"EU, FSSAI, USDA, WHO",1
+Tomato,Brand_1,"Fat: 4g, Sugar: 2g",2024-01-26,"WHO, FSSAI, USDA, FDA",0
+Bittergourd,Brand_2,"Fat: 0g, Sugar: 0g",2024-05-25,"WHO, EU, FSSAI, FDA",0
+Apple,Brand_4,"Fat: 4g, Sugar: 1g",2025-01-17,"FSSAI, EU, USDA, FDA, WHO",1
+Bittergourd,Brand_2,"Fat: 0g, Sugar: 0g",2023-11-21,"USDA, WHO, FDA, FSSAI, EU",0
+Oranges,Brand_3,"Fat: 1g, Sugar: 1g",2024-02-05,"FSSAI, FDA, WHO",0
+Potato,Brand_2,"Fat: 3g, Sugar: 0g",2025-03-25,"USDA, EU, FDA",1
+Tomato,Brand_5,"Fat: 4g, Sugar: 5g",2025-05-01,"FSSAI, FDA, WHO, USDA, EU",1
+Oranges,Brand_4,"Fat: 3g, Sugar: 5g",2025-04-13,"FSSAI, FDA, WHO, EU, USDA",1
+Tomato,Brand_6,"Fat: 0g, Sugar: 1g",2024-06-13,"FDA, FSSAI",0
+Okra,Brand_9,"Fat: 3g, Sugar: 5g",2025-05-28,"USDA, WHO",1
+Okra,Brand_3,"Fat: 5g, Sugar: 3g",2025-07-30,"USDA, EU",1
+Banana,Brand_2,"Fat: 3g, Sugar: 1g",2024-04-04,"FSSAI, USDA, EU, FDA",0
+Pineapple,Brand_8,"Fat: 2g, Sugar: 0g",2023-11-11,"USDA, FDA, FSSAI, WHO",0
+Apple,Brand_1,"Fat: 5g, Sugar: 5g",2024-01-01,FSSAI,0
+Cucumber,Brand_3,"Fat: 4g, Sugar: 3g",2024-05-25,FDA,0
+Apple,Brand_1,"Fat: 5g, Sugar: 3g",2025-06-29,"EU, FDA, USDA, WHO, FSSAI",1
+Cucumber,Brand_4,"Fat: 1g, Sugar: 0g",2025-10-14,FSSAI,1
+Pineapple,Brand_1,"Fat: 2g, Sugar: 4g",2024-02-06,"WHO, FSSAI, USDA",0
+Apple,Brand_10,"Fat: 4g, Sugar: 1g",2025-09-15,FSSAI,1
+Capsicum,Brand_5,"Fat: 3g, Sugar: 0g",2025-10-18,"FDA, USDA, EU, WHO",1
+Pineapple,Brand_3,"Fat: 3g, Sugar: 4g",2025-03-30,"FDA, USDA",1
+Potato,Brand_1,"Fat: 2g, Sugar: 3g",2024-01-17,"FDA, FSSAI, WHO, EU",0
+Tomato,Brand_10,"Fat: 0g, Sugar: 4g",2025-09-09,"WHO, USDA",1
+Okra,Brand_4,"Fat: 2g, Sugar: 3g",2024-07-22,"WHO, FSSAI, USDA",0
+Pineapple,Brand_9,"Fat: 4g, Sugar: 4g",2025-01-31,FSSAI,1
+Capsicum,Brand_2,"Fat: 0g, Sugar: 1g",2025-01-23,"FSSAI, FDA, EU",1
+Tomato,Brand_7,"Fat: 3g, Sugar: 1g",2024-09-04,"USDA, FSSAI",0
+Okra,Brand_3,"Fat: 3g, Sugar: 4g",2025-05-29,"WHO, EU, USDA, FDA",1
+Okra,Brand_3,"Fat: 0g, Sugar: 4g",2025-10-14,WHO,1
+Okra,Brand_1,"Fat: 1g, Sugar: 0g",2024-08-15,"USDA, EU, WHO",0
+Bittergourd,Brand_3,"Fat: 4g, Sugar: 2g",2025-08-22,"FDA, EU, WHO, USDA",1
+Bittergourd,Brand_6,"Fat: 2g, Sugar: 2g",2024-05-28,FDA,0
+Cucumber,Brand_4,"Fat: 2g, Sugar: 0g",2025-04-24,"WHO, FDA, USDA",1
+Oranges,Brand_10,"Fat: 3g, Sugar: 1g",2024-10-09,EU,0
+Capsicum,Brand_3,"Fat: 2g, Sugar: 0g",2024-04-29,"USDA, WHO",0
+Oranges,Brand_9,"Fat: 5g, Sugar: 3g",2024-10-11,"FSSAI, FDA",0
+Tomato,Brand_3,"Fat: 2g, Sugar: 2g",2025-03-10,"EU, FSSAI, WHO, FDA",1
+Oranges,Brand_3,"Fat: 4g, Sugar: 3g",2024-12-06,"USDA, WHO",1
+Bittergourd,Brand_4,"Fat: 3g, Sugar: 4g",2024-11-21,"FDA, EU, WHO, USDA, FSSAI",1
+Cucumber,Brand_7,"Fat: 2g, Sugar: 0g",2024-02-16,"USDA, WHO",0
+Oranges,Brand_2,"Fat: 3g, Sugar: 4g",2024-03-07,"USDA, FSSAI",0
+Okra,Brand_2,"Fat: 5g, Sugar: 0g",2024-05-12,"FSSAI, WHO, USDA, EU",0
+Okra,Brand_5,"Fat: 2g, Sugar: 2g",2025-06-15,FSSAI,1
+Apple,Brand_7,"Fat: 3g, Sugar: 5g",2025-04-22,"FDA, FSSAI, USDA, WHO",1
+Oranges,Brand_10,"Fat: 4g, Sugar: 0g",2025-07-29,"FSSAI, EU, FDA",1
+Okra,Brand_8,"Fat: 5g, Sugar: 2g",2024-01-08,"FDA, WHO",0
+Bittergourd,Brand_9,"Fat: 1g, Sugar: 4g",2025-07-26,"FDA, EU, USDA, WHO, FSSAI",1
+Pineapple,Brand_4,"Fat: 1g, Sugar: 2g",2024-08-26,"USDA, FDA, FSSAI, WHO, EU",0
+Bittergourd,Brand_1,"Fat: 8g, Sugar: 9g",2024-11-11,"USDA, EU, WHO, FSSAI, FDA",0
+Oranges,Brand_7,"Fat: 20g, Sugar: 13g",2025-08-09,None,0
+Potato,Brand_5,"Fat: 19g, Sugar: 15g",2024-03-18,"EU, FSSAI, FDA, WHO, USDA",0
+Bittergourd,Brand_4,"Fat: 14g, Sugar: 7g",2023-11-14,"FDA, USDA, FSSAI, WHO",0
+Capsicum,Brand_8,"Fat: 6g, Sugar: 15g",2024-03-07,"FDA, WHO",0
+Potato,Brand_5,"Fat: 6g, Sugar: 9g",2024-08-25,None,0
+Apple,Brand_1,"Fat: 13g, Sugar: 10g",2024-02-09,None,0
+Potato,Brand_9,"Fat: 14g, Sugar: 6g",2023-12-28,None,0
+Potato,Brand_4,"Fat: 12g, Sugar: 6g",2025-01-29,"FDA, FSSAI, WHO, EU, USDA",0
+Bittergourd,Brand_4,"Fat: 14g, Sugar: 15g",2024-02-01,"WHO, EU, FDA",0
+Potato,Brand_6,"Fat: 19g, Sugar: 10g",2025-04-21,None,0
+Okra,Brand_6,"Fat: 12g, Sugar: 8g",2024-11-08,None,0
+Oranges,Brand_10,"Fat: 12g, Sugar: 14g",2024-06-30,None,0
+Capsicum,Brand_5,"Fat: 6g, Sugar: 6g",2024-11-06,"FDA, EU",0
+Tomato,Brand_1,"Fat: 8g, Sugar: 12g",2024-05-16,None,0
+Pineapple,Brand_9,"Fat: 16g, Sugar: 12g",2025-07-05,None,0
+Pineapple,Brand_10,"Fat: 10g, Sugar: 13g",2024-07-27,None,0
+Cucumber,Brand_7,"Fat: 18g, Sugar: 6g",2024-07-15,USDA,0
+Tomato,Brand_5,"Fat: 18g, Sugar: 6g",2024-11-17,"EU, FDA, WHO",0
+Banana,Brand_6,"Fat: 10g, Sugar: 10g",2024-01-15,"EU, WHO",0
+Pineapple,Brand_2,"Fat: 20g, Sugar: 6g",2023-12-18,None,0
+Banana,Brand_7,"Fat: 17g, Sugar: 9g",2024-10-16,"WHO, USDA",0
+Cucumber,Brand_7,"Fat: 19g, Sugar: 7g",2025-05-02,None,0
+Okra,Brand_3,"Fat: 17g, Sugar: 6g",2024-12-11,FSSAI,0
+Banana,Brand_7,"Fat: 20g, Sugar: 8g",2024-05-31,None,0
+Banana,Brand_3,"Fat: 12g, Sugar: 13g",2025-07-21,"EU, FSSAI, USDA, FDA, WHO",0
+Tomato,Brand_3,"Fat: 8g, Sugar: 12g",2024-06-30,None,0
+Bittergourd,Brand_8,"Fat: 10g, Sugar: 14g",2024-05-28,"FDA, WHO",0
+Capsicum,Brand_8,"Fat: 6g, Sugar: 11g",2025-10-16,None,0
+Oranges,Brand_6,"Fat: 6g, Sugar: 11g",2024-05-10,WHO,0
+Pineapple,Brand_4,"Fat: 17g, Sugar: 11g",2025-03-31,None,0
+Banana,Brand_9,"Fat: 13g, Sugar: 13g",2025-09-24,"FSSAI, USDA",0
+Okra,Brand_2,"Fat: 8g, Sugar: 14g",2024-06-08,None,0
+Banana,Brand_2,"Fat: 17g, Sugar: 9g",2025-08-12,"WHO, EU",0
+Cucumber,Brand_2,"Fat: 19g, Sugar: 12g",2024-11-11,None,0
+Potato,Brand_1,"Fat: 15g, Sugar: 10g",2024-11-04,"FDA, USDA, WHO",0
+Capsicum,Brand_1,"Fat: 20g, Sugar: 13g",2025-10-12,FSSAI,0
+Banana,Brand_5,"Fat: 12g, Sugar: 10g",2024-09-02,USDA,0
+Apple,Brand_6,"Fat: 12g, Sugar: 10g",2024-04-26,None,0
+Okra,Brand_6,"Fat: 8g, Sugar: 10g",2025-09-24,None,0
+Banana,Brand_3,"Fat: 15g, Sugar: 6g",2023-10-25,None,0
+Okra,Brand_6,"Fat: 9g, Sugar: 8g",2024-06-16,"USDA, FDA",0
+Tomato,Brand_2,"Fat: 6g, Sugar: 6g",2023-12-29,"WHO, USDA, FSSAI, EU",0
+Tomato,Brand_8,"Fat: 20g, Sugar: 7g",2024-04-21,None,0
+Apple,Brand_9,"Fat: 12g, Sugar: 10g",2024-05-07,None,0
+Capsicum,Brand_5,"Fat: 11g, Sugar: 8g",2025-10-02,"FDA, FSSAI, WHO, EU, USDA",0
+Potato,Brand_7,"Fat: 19g, Sugar: 15g",2025-05-17,"FDA, WHO, USDA, FSSAI, EU",0
+Capsicum,Brand_1,"Fat: 14g, Sugar: 9g",2025-05-13,None,0
+Oranges,Brand_3,"Fat: 17g, Sugar: 8g",2024-11-18,None,0
+Okra,Brand_10,"Fat: 15g, Sugar: 15g",2024-03-31,None,0
+Apple,Brand_8,"Fat: 12g, Sugar: 13g",2024-12-03,"FSSAI, EU, USDA, WHO",0
+Potato,Brand_5,"Fat: 10g, Sugar: 6g",2023-12-20,None,0
+Capsicum,Brand_8,"Fat: 18g, Sugar: 10g",2025-08-27,None,0
+Oranges,Brand_3,"Fat: 8g, Sugar: 10g",2024-04-01,None,0
+Banana,Brand_6,"Fat: 11g, Sugar: 13g",2024-05-22,"FSSAI, WHO",0
+Apple,Brand_2,"Fat: 20g, Sugar: 7g",2025-04-22,USDA,0
+Banana,Brand_3,"Fat: 20g, Sugar: 13g",2025-05-26,None,0
+Pineapple,Brand_6,"Fat: 18g, Sugar: 11g",2024-10-26,"FDA, WHO, FSSAI, EU",0
+Okra,Brand_9,"Fat: 15g, Sugar: 11g",2025-03-18,None,0
+Apple,Brand_2,"Fat: 11g, Sugar: 15g",2025-10-21,None,0
+Oranges,Brand_9,"Fat: 12g, Sugar: 13g",2025-08-31,None,0
+Oranges,Brand_4,"Fat: 8g, Sugar: 12g",2024-03-15,"FSSAI, WHO, EU, USDA, FDA",0
+Capsicum,Brand_6,"Fat: 20g, Sugar: 12g",2024-02-12,FSSAI,0
+Pineapple,Brand_1,"Fat: 10g, Sugar: 7g",2024-01-10,None,0
+Potato,Brand_4,"Fat: 12g, Sugar: 13g",2025-02-27,None,0
+Pineapple,Brand_6,"Fat: 16g, Sugar: 10g",2024-12-26,None,0
+Okra,Brand_10,"Fat: 15g, Sugar: 11g",2025-04-17,None,0
+Cucumber,Brand_4,"Fat: 17g, Sugar: 6g",2024-08-28,None,0
+Banana,Brand_3,"Fat: 11g, Sugar: 10g",2025-06-10,WHO,0
+Pineapple,Brand_9,"Fat: 7g, Sugar: 12g",2024-07-18,None,0
+Pineapple,Brand_5,"Fat: 20g, Sugar: 14g",2025-07-31,EU,0
+Bittergourd,Brand_8,"Fat: 12g, Sugar: 15g",2024-07-15,None,0
+Potato,Brand_6,"Fat: 16g, Sugar: 13g",2023-12-19,None,0
+Tomato,Brand_6,"Fat: 8g, Sugar: 15g",2023-12-19,None,0
+Tomato,Brand_10,"Fat: 16g, Sugar: 7g",2025-02-20,None,0
+Capsicum,Brand_10,"Fat: 18g, Sugar: 11g",2023-11-22,"USDA, EU",0
+Banana,Brand_4,"Fat: 13g, Sugar: 8g",2024-12-01,None,0
+Cucumber,Brand_4,"Fat: 6g, Sugar: 11g",2025-08-24,"FSSAI, USDA, WHO, EU",0
+Oranges,Brand_8,"Fat: 11g, Sugar: 7g",2025-01-23,None,0
+Capsicum,Brand_1,"Fat: 11g, Sugar: 7g",2024-04-17,None,0
+Bittergourd,Brand_4,"Fat: 16g, Sugar: 15g",2025-04-29,"FSSAI, FDA, WHO, EU, USDA",0
+Bittergourd,Brand_2,"Fat: 6g, Sugar: 12g",2025-04-09,None,0
+Capsicum,Brand_5,"Fat: 17g, Sugar: 15g",2025-08-11,"EU, FDA, USDA, WHO",0
+Pineapple,Brand_1,"Fat: 13g, Sugar: 14g",2024-10-11,None,0
+Potato,Brand_2,"Fat: 19g, Sugar: 15g",2023-10-28,"USDA, WHO, FSSAI, FDA, EU",0
+Oranges,Brand_1,"Fat: 17g, Sugar: 13g",2024-09-07,WHO,0
+Banana,Brand_6,"Fat: 17g, Sugar: 14g",2025-05-15,"EU, FSSAI, FDA, USDA",0
+Apple,Brand_9,"Fat: 16g, Sugar: 13g",2024-08-27,None,0
+Pineapple,Brand_8,"Fat: 20g, Sugar: 14g",2024-11-19,None,0
+Capsicum,Brand_8,"Fat: 14g, Sugar: 12g",2024-10-16,"FSSAI, USDA, FDA, EU, WHO",0
+Cucumber,Brand_1,"Fat: 20g, Sugar: 9g",2024-02-16,None,0
+Bittergourd,Brand_1,"Fat: 10g, Sugar: 7g",2024-07-16,"FDA, WHO, EU, FSSAI",0
+Okra,Brand_6,"Fat: 19g, Sugar: 12g",2023-11-19,None,0
+Okra,Brand_4,"Fat: 16g, Sugar: 14g",2025-03-30,None,0
+Apple,Brand_9,"Fat: 14g, Sugar: 6g",2024-07-12,"FSSAI, EU, WHO, USDA, FDA",0
+Okra,Brand_2,"Fat: 14g, Sugar: 9g",2024-06-27,"USDA, EU, FSSAI",0
+Capsicum,Brand_5,"Fat: 13g, Sugar: 9g",2023-11-18,None,0
+Okra,Brand_5,"Fat: 10g, Sugar: 14g",2024-12-31,"USDA, FDA",0
+Bittergourd,Brand_5,"Fat: 17g, Sugar: 8g",2024-04-06,"FDA, EU, FSSAI, WHO, USDA",0
+Banana,Brand_6,"Fat: 10g, Sugar: 6g",2024-02-06,None,0

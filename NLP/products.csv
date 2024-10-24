@@ -1,0 +1,501 @@
+product_name,brand,nutritional_info,expiration_date,regulatory_notes,label
+Cucumber,Brand_3,"Calories: 138, Carbs: 17g, Protein: 6g",2025-09-17,"WHO, FSSAI",1
+Bittergourd,Brand_3,"Calories: 197, Carbs: 12g, Protein: 3g",2024-01-26,FSSAI,0
+Banana,Brand_8,"Calories: 182, Carbs: 13g, Protein: 1g",2023-12-23,"USDA, FSSAI",0
+Pineapple,Brand_9,"Calories: 180, Carbs: 47g, Protein: 1g",2024-04-07,"USDA, None",0
+Bittergourd,Brand_1,"Calories: 212, Carbs: 12g, Protein: 4g",2024-09-07,WHO,0
+Apple,Brand_1,"Calories: 93, Carbs: 34g, Protein: 6g",2023-12-06,None,0
+Bittergourd,Brand_4,"Calories: 235, Carbs: 48g, Protein: 8g",2024-01-20,"FDA, WHO",0
+Oranges,Brand_7,"Calories: 294, Carbs: 24g, Protein: 3g",2024-06-18,"FDA, WHO",0
+Okra,Brand_2,"Calories: 84, Carbs: 19g, Protein: 7g",2025-03-08,None,0
+Capsicum,Brand_2,"Calories: 90, Carbs: 24g, Protein: 6g",2024-02-24,"None, FSSAI",0
+Apple,Brand_10,"Calories: 157, Carbs: 17g, Protein: 5g",2025-01-17,WHO,1
+Pineapple,Brand_6,"Calories: 203, Carbs: 25g, Protein: 8g",2023-12-02,"EU, WHO",0
+Potato,Brand_8,"Calories: 223, Carbs: 41g, Protein: 9g",2025-05-31,None,0
+Potato,Brand_10,"Calories: 238, Carbs: 32g, Protein: 4g",2025-02-28,"EU, USDA",1
+Apple,Brand_9,"Calories: 200, Carbs: 40g, Protein: 5g",2025-02-13,None,0
+Apple,Brand_9,"Calories: 178, Carbs: 45g, Protein: 2g",2025-09-16,WHO,1
+Bittergourd,Brand_9,"Calories: 279, Carbs: 8g, Protein: 10g",2025-03-30,FDA,1
+Pineapple,Brand_2,"Calories: 275, Carbs: 13g, Protein: 1g",2024-12-02,"FDA, USDA",1
+Potato,Brand_3,"Calories: 86, Carbs: 34g, Protein: 1g",2025-10-14,None,0
+Bittergourd,Brand_4,"Calories: 120, Carbs: 22g, Protein: 5g",2025-01-21,WHO,1
+Bittergourd,Brand_9,"Calories: 244, Carbs: 30g, Protein: 6g",2024-01-17,"None, FDA",0
+Okra,Brand_8,"Calories: 241, Carbs: 15g, Protein: 4g",2024-12-30,"EU, None",0
+Apple,Brand_7,"Calories: 179, Carbs: 7g, Protein: 8g",2025-01-03,FDA,1
+Potato,Brand_4,"Calories: 256, Carbs: 5g, Protein: 7g",2025-08-09,USDA,1
+Potato,Brand_2,"Calories: 80, Carbs: 37g, Protein: 8g",2025-06-22,WHO,1
+Apple,Brand_1,"Calories: 150, Carbs: 42g, Protein: 9g",2024-09-28,EU,0
+Cucumber,Brand_9,"Calories: 147, Carbs: 17g, Protein: 1g",2023-12-20,None,0
+Capsicum,Brand_5,"Calories: 255, Carbs: 17g, Protein: 4g",2024-09-11,"USDA, None",0
+Bittergourd,Brand_7,"Calories: 283, Carbs: 11g, Protein: 8g",2024-08-31,None,0
+Banana,Brand_3,"Calories: 235, Carbs: 11g, Protein: 3g",2025-02-28,None,0
+Apple,Brand_6,"Calories: 65, Carbs: 13g, Protein: 10g",2024-02-13,None,0
+Cucumber,Brand_6,"Calories: 51, Carbs: 23g, Protein: 4g",2024-12-29,"EU, WHO",1
+Pineapple,Brand_10,"Calories: 102, Carbs: 47g, Protein: 4g",2024-06-06,"EU, FSSAI",0
+Capsicum,Brand_3,"Calories: 147, Carbs: 50g, Protein: 8g",2024-04-19,"WHO, USDA",0
+Pineapple,Brand_2,"Calories: 160, Carbs: 46g, Protein: 10g",2024-10-10,FSSAI,0
+Banana,Brand_8,"Calories: 285, Carbs: 17g, Protein: 4g",2024-03-12,None,0
+Potato,Brand_3,"Calories: 91, Carbs: 15g, Protein: 1g",2024-09-27,None,0
+Potato,Brand_8,"Calories: 172, Carbs: 19g, Protein: 1g",2024-06-17,FSSAI,0
+Banana,Brand_3,"Calories: 59, Carbs: 39g, Protein: 8g",2025-06-15,"None, USDA",0
+Capsicum,Brand_7,"Calories: 207, Carbs: 48g, Protein: 9g",2024-10-22,USDA,0
+Potato,Brand_3,"Calories: 96, Carbs: 37g, Protein: 5g",2024-01-25,None,0
+Pineapple,Brand_7,"Calories: 143, Carbs: 34g, Protein: 6g",2025-02-27,"WHO, FDA",1
+Okra,Brand_7,"Calories: 111, Carbs: 27g, Protein: 2g",2024-08-10,"None, WHO",0
+Cucumber,Brand_7,"Calories: 183, Carbs: 18g, Protein: 7g",2025-09-22,USDA,1
+Bittergourd,Brand_9,"Calories: 135, Carbs: 11g, Protein: 3g",2023-12-21,None,0
+Cucumber,Brand_4,"Calories: 228, Carbs: 13g, Protein: 5g",2025-06-22,FSSAI,1
+Potato,Brand_7,"Calories: 130, Carbs: 8g, Protein: 7g",2023-11-01,"FDA, WHO",0
+Okra,Brand_7,"Calories: 209, Carbs: 17g, Protein: 6g",2025-06-14,WHO,1
+Apple,Brand_1,"Calories: 145, Carbs: 42g, Protein: 6g",2023-11-12,USDA,0
+Capsicum,Brand_7,"Calories: 221, Carbs: 26g, Protein: 10g",2025-05-17,FSSAI,1
+Okra,Brand_6,"Calories: 211, Carbs: 36g, Protein: 3g",2024-02-04,None,0
+Oranges,Brand_3,"Calories: 221, Carbs: 48g, Protein: 10g",2024-06-14,None,0
+Capsicum,Brand_8,"Calories: 299, Carbs: 10g, Protein: 5g",2023-11-13,"FSSAI, EU",0
+Capsicum,Brand_3,"Calories: 155, Carbs: 45g, Protein: 3g",2024-05-24,None,0
+Oranges,Brand_7,"Calories: 196, Carbs: 19g, Protein: 10g",2025-05-24,"None, FDA",0
+Pineapple,Brand_4,"Calories: 155, Carbs: 21g, Protein: 8g",2024-06-17,"FDA, None",0
+Apple,Brand_3,"Calories: 231, Carbs: 46g, Protein: 4g",2025-02-26,"FSSAI, USDA",1
+Bittergourd,Brand_6,"Calories: 61, Carbs: 47g, Protein: 8g",2024-01-19,None,0
+Potato,Brand_4,"Calories: 159, Carbs: 6g, Protein: 1g",2024-03-23,"FSSAI, USDA",0
+Potato,Brand_8,"Calories: 120, Carbs: 24g, Protein: 3g",2025-07-16,"WHO, USDA",1
+Capsicum,Brand_9,"Calories: 222, Carbs: 39g, Protein: 3g",2025-05-25,None,0
+Apple,Brand_1,"Calories: 166, Carbs: 40g, Protein: 4g",2024-01-13,"FSSAI, USDA",0
+Banana,Brand_2,"Calories: 259, Carbs: 27g, Protein: 4g",2023-12-08,USDA,0
+Bittergourd,Brand_3,"Calories: 101, Carbs: 13g, Protein: 5g",2025-09-20,None,0
+Bittergourd,Brand_1,"Calories: 50, Carbs: 26g, Protein: 3g",2025-09-19,None,0
+Apple,Brand_7,"Calories: 213, Carbs: 24g, Protein: 10g",2024-12-04,"FSSAI, FDA",1
+Tomato,Brand_10,"Calories: 195, Carbs: 48g, Protein: 7g",2025-04-22,"USDA, FSSAI",1
+Bittergourd,Brand_7,"Calories: 170, Carbs: 23g, Protein: 3g",2025-09-30,None,0
+Apple,Brand_8,"Calories: 75, Carbs: 40g, Protein: 5g",2024-11-29,"FSSAI, EU",1
+Capsicum,Brand_3,"Calories: 129, Carbs: 42g, Protein: 1g",2025-02-27,None,0
+Potato,Brand_9,"Calories: 217, Carbs: 22g, Protein: 10g",2024-08-04,None,0
+Banana,Brand_4,"Calories: 170, Carbs: 48g, Protein: 5g",2023-11-09,None,0
+Apple,Brand_3,"Calories: 119, Carbs: 36g, Protein: 5g",2023-12-09,None,0
+Bittergourd,Brand_9,"Calories: 190, Carbs: 17g, Protein: 8g",2023-12-28,"None, USDA",0
+Capsicum,Brand_7,"Calories: 87, Carbs: 45g, Protein: 7g",2023-11-22,None,0
+Banana,Brand_9,"Calories: 202, Carbs: 45g, Protein: 3g",2023-11-16,"EU, None",0
+Tomato,Brand_1,"Calories: 278, Carbs: 49g, Protein: 2g",2024-10-13,None,0
+Capsicum,Brand_2,"Calories: 159, Carbs: 14g, Protein: 4g",2025-05-29,None,0
+Cucumber,Brand_5,"Calories: 188, Carbs: 17g, Protein: 2g",2024-08-11,"EU, None",0
+Pineapple,Brand_7,"Calories: 142, Carbs: 14g, Protein: 1g",2024-12-03,"None, USDA",0
+Bittergourd,Brand_7,"Calories: 157, Carbs: 6g, Protein: 10g",2024-06-21,USDA,0
+Tomato,Brand_3,"Calories: 208, Carbs: 15g, Protein: 1g",2024-06-19,FDA,0
+Okra,Brand_10,"Calories: 63, Carbs: 39g, Protein: 10g",2025-07-16,"FSSAI, FDA",1
+Okra,Brand_10,"Calories: 123, Carbs: 14g, Protein: 2g",2024-01-15,None,0
+Oranges,Brand_4,"Calories: 114, Carbs: 21g, Protein: 1g",2025-09-13,None,0
+Banana,Brand_6,"Calories: 139, Carbs: 34g, Protein: 8g",2024-11-29,None,0
+Potato,Brand_3,"Calories: 208, Carbs: 33g, Protein: 10g",2024-06-04,None,0
+Okra,Brand_2,"Calories: 125, Carbs: 9g, Protein: 9g",2024-03-27,"None, EU",0
+Pineapple,Brand_3,"Calories: 134, Carbs: 36g, Protein: 10g",2025-01-24,"FDA, FSSAI",1
+Cucumber,Brand_9,"Calories: 138, Carbs: 39g, Protein: 10g",2024-05-13,None,0
+Okra,Brand_1,"Calories: 183, Carbs: 5g, Protein: 3g",2024-09-19,None,0
+Banana,Brand_9,"Calories: 171, Carbs: 8g, Protein: 6g",2024-05-09,FDA,0
+Okra,Brand_6,"Calories: 273, Carbs: 42g, Protein: 9g",2024-03-09,None,0
+Cucumber,Brand_3,"Calories: 213, Carbs: 45g, Protein: 4g",2024-02-13,None,0
+Tomato,Brand_1,"Calories: 53, Carbs: 18g, Protein: 3g",2025-09-11,USDA,1
+Pineapple,Brand_7,"Calories: 185, Carbs: 19g, Protein: 6g",2024-02-10,EU,0
+Capsicum,Brand_10,"Calories: 140, Carbs: 26g, Protein: 7g",2025-04-10,"WHO, None",0
+Apple,Brand_5,"Calories: 250, Carbs: 19g, Protein: 4g",2024-05-04,None,0
+Pineapple,Brand_1,"Calories: 107, Carbs: 7g, Protein: 10g",2025-02-15,"EU, FSSAI",1
+Apple,Brand_7,"Calories: 266, Carbs: 27g, Protein: 5g",2025-03-11,None,0
+Bittergourd,Brand_4,"Calories: 123, Carbs: 39g, Protein: 10g",2024-07-31,USDA,0
+Okra,Brand_8,"Calories: 175, Carbs: 18g, Protein: 9g",2024-07-26,"EU, None",0
+Apple,Brand_1,"Calories: 100, Carbs: 34g, Protein: 8g",2024-03-27,None,0
+Potato,Brand_7,"Calories: 292, Carbs: 35g, Protein: 5g",2025-08-11,WHO,1
+Cucumber,Brand_4,"Calories: 123, Carbs: 6g, Protein: 3g",2025-07-19,None,0
+Oranges,Brand_4,"Calories: 96, Carbs: 41g, Protein: 8g",2024-09-18,None,0
+Cucumber,Brand_5,"Calories: 202, Carbs: 34g, Protein: 3g",2025-05-05,None,0
+Pineapple,Brand_1,"Calories: 176, Carbs: 48g, Protein: 5g",2024-09-04,None,0
+Oranges,Brand_10,"Calories: 52, Carbs: 43g, Protein: 8g",2024-10-10,"USDA, FDA",0
+Okra,Brand_5,"Calories: 192, Carbs: 6g, Protein: 4g",2024-05-31,"FDA, FSSAI",0
+Cucumber,Brand_8,"Calories: 68, Carbs: 28g, Protein: 5g",2024-04-16,None,0
+Banana,Brand_2,"Calories: 277, Carbs: 26g, Protein: 7g",2023-12-15,None,0
+Bittergourd,Brand_6,"Calories: 125, Carbs: 43g, Protein: 2g",2024-05-02,FSSAI,0
+Apple,Brand_1,"Calories: 63, Carbs: 5g, Protein: 1g",2024-12-28,None,0
+Bittergourd,Brand_10,"Calories: 167, Carbs: 27g, Protein: 8g",2024-05-25,EU,0
+Okra,Brand_3,"Calories: 295, Carbs: 10g, Protein: 2g",2023-11-24,"EU, None",0
+Potato,Brand_5,"Calories: 143, Carbs: 10g, Protein: 2g",2023-11-12,None,0
+Okra,Brand_7,"Calories: 55, Carbs: 25g, Protein: 4g",2025-06-02,"FSSAI, None",0
+Pineapple,Brand_4,"Calories: 282, Carbs: 10g, Protein: 3g",2024-12-04,None,0
+Capsicum,Brand_1,"Calories: 262, Carbs: 20g, Protein: 7g",2024-12-05,None,0
+Apple,Brand_2,"Calories: 268, Carbs: 46g, Protein: 10g",2025-08-12,None,0
+Capsicum,Brand_5,"Calories: 281, Carbs: 38g, Protein: 5g",2025-03-28,None,0
+Capsicum,Brand_10,"Calories: 199, Carbs: 36g, Protein: 4g",2023-11-02,"USDA, WHO",0
+Capsicum,Brand_1,"Calories: 268, Carbs: 40g, Protein: 2g",2025-04-03,None,0
+Capsicum,Brand_6,"Calories: 104, Carbs: 19g, Protein: 6g",2024-08-08,"FSSAI, None",0
+Pineapple,Brand_10,"Calories: 120, Carbs: 22g, Protein: 4g",2023-12-25,EU,0
+Potato,Brand_2,"Calories: 296, Carbs: 48g, Protein: 5g",2024-08-18,"FDA, FSSAI",0
+Banana,Brand_9,"Calories: 85, Carbs: 18g, Protein: 9g",2025-05-16,WHO,1
+Cucumber,Brand_10,"Calories: 156, Carbs: 31g, Protein: 10g",2024-12-11,None,0
+Capsicum,Brand_4,"Calories: 63, Carbs: 26g, Protein: 9g",2025-05-23,"USDA, FSSAI",1
+Apple,Brand_10,"Calories: 195, Carbs: 21g, Protein: 9g",2025-09-10,"FDA, FSSAI",1
+Oranges,Brand_3,"Calories: 267, Carbs: 32g, Protein: 1g",2025-04-26,"EU, FSSAI",1
+Pineapple,Brand_8,"Calories: 203, Carbs: 5g, Protein: 10g",2024-02-15,"USDA, None",0
+Tomato,Brand_5,"Calories: 78, Carbs: 7g, Protein: 6g",2025-07-29,WHO,1
+Banana,Brand_4,"Calories: 210, Carbs: 19g, Protein: 10g",2024-12-22,"WHO, None",0
+Bittergourd,Brand_5,"Calories: 154, Carbs: 47g, Protein: 3g",2024-05-21,FSSAI,0
+Pineapple,Brand_4,"Calories: 126, Carbs: 25g, Protein: 6g",2024-08-26,None,0
+Tomato,Brand_3,"Calories: 72, Carbs: 29g, Protein: 10g",2024-06-01,WHO,0
+Okra,Brand_6,"Calories: 153, Carbs: 20g, Protein: 6g",2024-11-14,None,0
+Bittergourd,Brand_4,"Calories: 93, Carbs: 16g, Protein: 5g",2025-03-09,"WHO, FSSAI",1
+Pineapple,Brand_4,"Calories: 150, Carbs: 47g, Protein: 1g",2024-07-25,"EU, WHO",0
+Tomato,Brand_6,"Calories: 64, Carbs: 16g, Protein: 8g",2024-03-09,None,0
+Tomato,Brand_4,"Calories: 192, Carbs: 35g, Protein: 7g",2024-04-04,None,0
+Tomato,Brand_3,"Calories: 190, Carbs: 33g, Protein: 10g",2025-03-28,"FSSAI, FDA",1
+Cucumber,Brand_8,"Calories: 171, Carbs: 21g, Protein: 10g",2025-01-01,FDA,1
+Banana,Brand_7,"Calories: 73, Carbs: 38g, Protein: 10g",2023-12-06,"FDA, EU",0
+Capsicum,Brand_7,"Calories: 132, Carbs: 27g, Protein: 9g",2024-10-22,None,0
+Apple,Brand_4,"Calories: 240, Carbs: 19g, Protein: 8g",2025-07-01,USDA,1
+Apple,Brand_8,"Calories: 56, Carbs: 47g, Protein: 9g",2025-07-17,None,0
+Capsicum,Brand_10,"Calories: 156, Carbs: 37g, Protein: 5g",2024-11-20,EU,1
+Oranges,Brand_8,"Calories: 125, Carbs: 35g, Protein: 1g",2024-06-14,"FDA, WHO",0
+Pineapple,Brand_5,"Calories: 154, Carbs: 11g, Protein: 6g",2025-09-28,"WHO, FDA",1
+Banana,Brand_4,"Calories: 200, Carbs: 7g, Protein: 10g",2024-07-08,None,0
+Potato,Brand_9,"Calories: 117, Carbs: 38g, Protein: 4g",2024-07-14,WHO,0
+Cucumber,Brand_2,"Calories: 288, Carbs: 34g, Protein: 4g",2024-01-21,EU,0
+Apple,Brand_1,"Calories: 98, Carbs: 41g, Protein: 4g",2024-03-10,None,0
+Bittergourd,Brand_2,"Calories: 97, Carbs: 42g, Protein: 4g",2024-04-08,None,0
+Bittergourd,Brand_9,"Calories: 65, Carbs: 5g, Protein: 8g",2024-02-08,WHO,0
+Cucumber,Brand_5,"Calories: 200, Carbs: 42g, Protein: 5g",2025-02-01,USDA,1
+Cucumber,Brand_6,"Calories: 57, Carbs: 50g, Protein: 5g",2024-08-11,"FSSAI, FDA",0
+Okra,Brand_8,"Calories: 170, Carbs: 39g, Protein: 7g",2024-02-07,"FDA, USDA",0
+Capsicum,Brand_9,"Calories: 283, Carbs: 12g, Protein: 4g",2025-05-16,None,0
+Capsicum,Brand_10,"Calories: 173, Carbs: 17g, Protein: 8g",2025-03-19,None,0
+Banana,Brand_9,"Calories: 263, Carbs: 17g, Protein: 3g",2025-04-05,FDA,1
+Pineapple,Brand_3,"Calories: 266, Carbs: 15g, Protein: 10g",2025-07-04,None,0
+Apple,Brand_4,"Calories: 292, Carbs: 25g, Protein: 9g",2025-07-02,FDA,1
+Okra,Brand_5,"Calories: 286, Carbs: 22g, Protein: 4g",2025-09-13,FSSAI,1
+Oranges,Brand_1,"Calories: 82, Carbs: 49g, Protein: 4g",2024-10-23,None,0
+Banana,Brand_6,"Calories: 96, Carbs: 37g, Protein: 10g",2024-10-08,FDA,0
+Apple,Brand_10,"Calories: 68, Carbs: 10g, Protein: 1g",2024-08-04,"FDA, USDA",0
+Oranges,Brand_7,"Calories: 109, Carbs: 48g, Protein: 10g",2024-12-05,"FDA, FSSAI",1
+Bittergourd,Brand_1,"Calories: 156, Carbs: 25g, Protein: 5g",2025-03-23,EU,1
+Okra,Brand_9,"Calories: 299, Carbs: 47g, Protein: 1g",2025-09-16,FDA,1
+Tomato,Brand_8,"Calories: 85, Carbs: 33g, Protein: 3g",2025-10-04,"FSSAI, USDA",1
+Apple,Brand_3,"Calories: 175, Carbs: 22g, Protein: 5g",2024-11-24,FSSAI,1
+Okra,Brand_9,"Calories: 194, Carbs: 37g, Protein: 9g",2025-01-18,None,0
+Okra,Brand_4,"Calories: 66, Carbs: 27g, Protein: 3g",2024-06-20,EU,0
+Apple,Brand_10,"Calories: 127, Carbs: 37g, Protein: 6g",2025-09-07,"USDA, WHO",1
+Potato,Brand_5,"Calories: 272, Carbs: 27g, Protein: 5g",2023-11-02,USDA,0
+Capsicum,Brand_3,"Calories: 180, Carbs: 50g, Protein: 7g",2025-07-18,"WHO, EU",1
+Potato,Brand_8,"Calories: 254, Carbs: 7g, Protein: 7g",2023-11-21,None,0
+Pineapple,Brand_7,"Calories: 143, Carbs: 43g, Protein: 10g",2024-01-24,None,0
+Pineapple,Brand_2,"Calories: 178, Carbs: 50g, Protein: 2g",2024-01-07,EU,0
+Bittergourd,Brand_8,"Calories: 111, Carbs: 48g, Protein: 2g",2025-03-15,"None, EU",0
+Bittergourd,Brand_3,"Calories: 76, Carbs: 30g, Protein: 6g",2025-07-25,"USDA, None",0
+Tomato,Brand_3,"Calories: 214, Carbs: 11g, Protein: 7g",2024-10-30,FSSAI,1
+Oranges,Brand_2,"Calories: 258, Carbs: 28g, Protein: 5g",2024-03-15,"EU, WHO",0
+Okra,Brand_5,"Calories: 53, Carbs: 46g, Protein: 4g",2025-04-19,"None, USDA",0
+Potato,Brand_10,"Calories: 110, Carbs: 37g, Protein: 8g",2025-05-08,FSSAI,1
+Cucumber,Brand_3,"Calories: 267, Carbs: 12g, Protein: 3g",2024-10-11,EU,0
+Capsicum,Brand_6,"Calories: 286, Carbs: 36g, Protein: 9g",2023-12-19,None,0
+Oranges,Brand_4,"Calories: 184, Carbs: 28g, Protein: 7g",2025-02-11,None,0
+Cucumber,Brand_3,"Calories: 233, Carbs: 21g, Protein: 2g",2025-08-30,None,0
+Tomato,Brand_8,"Calories: 129, Carbs: 37g, Protein: 1g",2024-06-01,None,0
+Bittergourd,Brand_10,"Calories: 105, Carbs: 33g, Protein: 3g",2024-09-21,None,0
+Okra,Brand_3,"Calories: 231, Carbs: 11g, Protein: 9g",2025-01-23,FDA,1
+Oranges,Brand_2,"Calories: 82, Carbs: 21g, Protein: 5g",2025-09-09,None,0
+Apple,Brand_4,"Calories: 211, Carbs: 48g, Protein: 7g",2025-08-26,EU,1
+Pineapple,Brand_6,"Calories: 224, Carbs: 43g, Protein: 2g",2025-10-16,None,0
+Apple,Brand_5,"Calories: 80, Carbs: 35g, Protein: 7g",2025-06-13,"WHO, EU",1
+Potato,Brand_4,"Calories: 52, Carbs: 25g, Protein: 6g",2025-09-17,"USDA, None",0
+Capsicum,Brand_3,"Calories: 230, Carbs: 29g, Protein: 9g",2025-09-09,WHO,1
+Apple,Brand_10,"Calories: 104, Carbs: 34g, Protein: 5g",2024-03-21,USDA,0
+Bittergourd,Brand_5,"Calories: 197, Carbs: 21g, Protein: 6g",2025-06-02,"None, FDA",0
+Oranges,Brand_5,"Calories: 279, Carbs: 36g, Protein: 4g",2024-07-01,WHO,0
+Apple,Brand_9,"Calories: 64, Carbs: 21g, Protein: 1g",2024-03-15,None,0
+Okra,Brand_1,"Calories: 96, Carbs: 13g, Protein: 7g",2025-02-16,"None, WHO",0
+Tomato,Brand_6,"Calories: 229, Carbs: 30g, Protein: 5g",2025-05-06,FDA,1
+Capsicum,Brand_4,"Calories: 66, Carbs: 16g, Protein: 10g",2025-08-18,None,0
+Bittergourd,Brand_2,"Calories: 142, Carbs: 28g, Protein: 5g",2025-08-25,EU,1
+Apple,Brand_9,"Calories: 244, Carbs: 39g, Protein: 7g",2024-10-06,WHO,0
+Bittergourd,Brand_2,"Calories: 169, Carbs: 16g, Protein: 1g",2025-08-31,"USDA, None",0
+Apple,Brand_5,"Calories: 112, Carbs: 8g, Protein: 9g",2024-08-06,"FDA, None",0
+Banana,Brand_4,"Calories: 123, Carbs: 29g, Protein: 10g",2025-07-30,"EU, None",0
+Cucumber,Brand_3,"Calories: 243, Carbs: 35g, Protein: 2g",2024-08-22,WHO,0
+Potato,Brand_5,"Calories: 299, Carbs: 10g, Protein: 6g",2024-02-12,None,0
+Cucumber,Brand_10,"Calories: 129, Carbs: 12g, Protein: 9g",2025-07-16,WHO,1
+Pineapple,Brand_8,"Calories: 176, Carbs: 12g, Protein: 5g",2025-03-08,"FDA, EU",1
+Oranges,Brand_5,"Calories: 112, Carbs: 49g, Protein: 7g",2024-08-06,"USDA, EU",0
+Potato,Brand_4,"Calories: 183, Carbs: 15g, Protein: 2g",2025-08-21,FDA,1
+Pineapple,Brand_9,"Calories: 229, Carbs: 34g, Protein: 10g",2024-01-10,None,0
+Potato,Brand_4,"Calories: 207, Carbs: 30g, Protein: 8g",2025-03-27,FSSAI,1
+Capsicum,Brand_9,"Calories: 279, Carbs: 38g, Protein: 3g",2025-10-17,FSSAI,1
+Pineapple,Brand_3,"Calories: 287, Carbs: 18g, Protein: 10g",2025-05-01,WHO,1
+Oranges,Brand_6,"Calories: 191, Carbs: 48g, Protein: 8g",2024-09-26,FDA,0
+Okra,Brand_10,"Calories: 244, Carbs: 35g, Protein: 2g",2024-06-12,"None, WHO",0
+Potato,Brand_8,"Calories: 76, Carbs: 23g, Protein: 7g",2025-06-28,"USDA, WHO",1
+Tomato,Brand_10,"Calories: 104, Carbs: 7g, Protein: 9g",2024-05-10,None,0
+Tomato,Brand_9,"Calories: 169, Carbs: 28g, Protein: 1g",2024-12-28,"EU, None",0
+Oranges,Brand_9,"Calories: 143, Carbs: 12g, Protein: 4g",2025-02-18,FSSAI,1
+Apple,Brand_2,"Calories: 101, Carbs: 23g, Protein: 10g",2024-11-23,USDA,1
+Capsicum,Brand_3,"Calories: 175, Carbs: 50g, Protein: 3g",2025-05-29,WHO,1
+Potato,Brand_7,"Calories: 253, Carbs: 26g, Protein: 9g",2024-09-02,None,0
+Capsicum,Brand_7,"Calories: 187, Carbs: 10g, Protein: 5g",2025-06-19,None,0
+Tomato,Brand_6,"Calories: 61, Carbs: 41g, Protein: 6g",2025-07-11,None,0
+Okra,Brand_8,"Calories: 262, Carbs: 6g, Protein: 1g",2024-05-16,None,0
+Cucumber,Brand_5,"Calories: 85, Carbs: 17g, Protein: 4g",2025-03-12,None,0
+Bittergourd,Brand_10,"Calories: 278, Carbs: 44g, Protein: 1g",2025-03-15,None,0
+Cucumber,Brand_10,"Calories: 163, Carbs: 35g, Protein: 4g",2024-06-25,None,0
+Cucumber,Brand_8,"Calories: 188, Carbs: 19g, Protein: 5g",2025-07-24,WHO,1
+Oranges,Brand_7,"Calories: 113, Carbs: 15g, Protein: 2g",2024-07-26,EU,0
+Tomato,Brand_9,"Calories: 124, Carbs: 16g, Protein: 7g",2024-07-10,"USDA, FSSAI",0
+Capsicum,Brand_2,"Calories: 90, Carbs: 47g, Protein: 2g",2025-04-13,None,0
+Potato,Brand_4,"Calories: 86, Carbs: 30g, Protein: 1g",2025-06-25,"WHO, None",0
+Pineapple,Brand_3,"Calories: 176, Carbs: 32g, Protein: 1g",2024-03-16,"FSSAI, None",0
+Cucumber,Brand_8,"Calories: 173, Carbs: 38g, Protein: 9g",2024-10-31,"WHO, FDA",1
+Pineapple,Brand_10,"Calories: 55, Carbs: 31g, Protein: 10g",2024-03-02,None,0
+Capsicum,Brand_1,"Calories: 179, Carbs: 43g, Protein: 1g",2023-12-12,USDA,0
+Potato,Brand_9,"Calories: 193, Carbs: 15g, Protein: 6g",2025-02-18,None,0
+Bittergourd,Brand_9,"Calories: 300, Carbs: 45g, Protein: 3g",2024-01-25,None,0
+Banana,Brand_3,"Calories: 120, Carbs: 11g, Protein: 5g",2025-05-30,None,0
+Bittergourd,Brand_1,"Calories: 159, Carbs: 32g, Protein: 6g",2025-04-16,USDA,1
+Oranges,Brand_2,"Calories: 92, Carbs: 28g, Protein: 6g",2024-11-09,None,0
+Banana,Brand_8,"Calories: 169, Carbs: 22g, Protein: 4g",2025-08-26,FSSAI,1
+Pineapple,Brand_6,"Calories: 277, Carbs: 33g, Protein: 9g",2024-10-29,"WHO, FDA",1
+Bittergourd,Brand_5,"Calories: 239, Carbs: 5g, Protein: 3g",2025-07-18,None,0
+Pineapple,Brand_10,"Calories: 136, Carbs: 49g, Protein: 6g",2024-03-17,FDA,0
+Bittergourd,Brand_9,"Calories: 140, Carbs: 32g, Protein: 2g",2025-03-27,None,0
+Pineapple,Brand_4,"Calories: 273, Carbs: 44g, Protein: 6g",2025-09-27,"WHO, FDA",1
+Cucumber,Brand_3,"Calories: 150, Carbs: 23g, Protein: 1g",2025-08-03,None,0
+Capsicum,Brand_5,"Calories: 300, Carbs: 31g, Protein: 3g",2024-08-23,USDA,0
+Bittergourd,Brand_5,"Calories: 104, Carbs: 43g, Protein: 4g",2024-11-04,EU,1
+Banana,Brand_5,"Calories: 269, Carbs: 34g, Protein: 3g",2023-10-26,None,0
+Capsicum,Brand_6,"Calories: 211, Carbs: 32g, Protein: 5g",2025-10-03,None,0
+Banana,Brand_6,"Calories: 112, Carbs: 20g, Protein: 2g",2024-02-17,None,0
+Oranges,Brand_6,"Calories: 214, Carbs: 24g, Protein: 6g",2025-05-31,USDA,1
+Okra,Brand_2,"Calories: 132, Carbs: 30g, Protein: 8g",2024-07-07,"WHO, FSSAI",0
+Cucumber,Brand_2,"Calories: 163, Carbs: 7g, Protein: 1g",2024-07-16,EU,0
+Pineapple,Brand_4,"Calories: 297, Carbs: 48g, Protein: 8g",2025-10-05,"FDA, None",0
+Okra,Brand_7,"Calories: 300, Carbs: 31g, Protein: 5g",2025-01-08,None,0
+Apple,Brand_8,"Calories: 267, Carbs: 13g, Protein: 9g",2025-05-03,None,0
+Okra,Brand_5,"Calories: 129, Carbs: 20g, Protein: 9g",2025-03-09,"USDA, WHO",1
+Tomato,Brand_7,"Calories: 176, Carbs: 30g, Protein: 5g",2025-03-14,USDA,1
+Bittergourd,Brand_5,"Calories: 272, Carbs: 14g, Protein: 5g",2024-07-07,None,0
+Okra,Brand_6,"Calories: 265, Carbs: 46g, Protein: 2g",2024-10-20,"EU, None",0
+Apple,Brand_2,"Calories: 213, Carbs: 5g, Protein: 2g",2024-05-30,WHO,0
+Bittergourd,Brand_10,"Calories: 258, Carbs: 42g, Protein: 8g",2024-11-27,"USDA, FDA",1
+Cucumber,Brand_10,"Calories: 97, Carbs: 7g, Protein: 7g",2024-06-30,WHO,0
+Potato,Brand_5,"Calories: 107, Carbs: 50g, Protein: 5g",2024-05-25,"EU, USDA",0
+Pineapple,Brand_4,"Calories: 275, Carbs: 9g, Protein: 6g",2024-06-07,EU,0
+Oranges,Brand_6,"Calories: 254, Carbs: 28g, Protein: 7g",2024-03-02,None,0
+Apple,Brand_2,"Calories: 130, Carbs: 45g, Protein: 3g",2024-04-20,"EU, USDA",0
+Oranges,Brand_3,"Calories: 297, Carbs: 37g, Protein: 7g",2025-09-04,None,0
+Oranges,Brand_10,"Calories: 271, Carbs: 40g, Protein: 3g",2025-07-22,"EU, None",0
+Bittergourd,Brand_1,"Calories: 154, Carbs: 32g, Protein: 8g",2024-12-22,None,0
+Cucumber,Brand_10,"Calories: 83, Carbs: 36g, Protein: 6g",2025-05-02,"WHO, None",0
+Apple,Brand_8,"Calories: 144, Carbs: 14g, Protein: 10g",2024-02-18,"None, EU",0
+Oranges,Brand_1,"Calories: 191, Carbs: 39g, Protein: 10g",2023-11-29,"USDA, FSSAI",0
+Tomato,Brand_3,"Calories: 206, Carbs: 14g, Protein: 5g",2025-08-12,"FSSAI, USDA",1
+Okra,Brand_4,"Calories: 287, Carbs: 14g, Protein: 6g",2025-08-29,None,0
+Tomato,Brand_5,"Calories: 281, Carbs: 35g, Protein: 2g",2024-10-03,None,0
+Apple,Brand_4,"Calories: 181, Carbs: 21g, Protein: 2g",2024-08-08,WHO,0
+Apple,Brand_8,"Calories: 259, Carbs: 15g, Protein: 3g",2025-07-17,"WHO, None",0
+Pineapple,Brand_10,"Calories: 300, Carbs: 19g, Protein: 5g",2024-01-11,None,0
+Apple,Brand_6,"Calories: 189, Carbs: 19g, Protein: 10g",2024-06-09,None,0
+Okra,Brand_6,"Calories: 105, Carbs: 9g, Protein: 3g",2024-07-17,None,0
+Apple,Brand_9,"Calories: 275, Carbs: 45g, Protein: 3g",2025-07-02,"FSSAI, None",0
+Banana,Brand_5,"Calories: 160, Carbs: 8g, Protein: 1g",2025-02-11,None,0
+Tomato,Brand_9,"Calories: 146, Carbs: 13g, Protein: 4g",2025-09-25,"USDA, FDA",1
+Cucumber,Brand_7,"Calories: 72, Carbs: 14g, Protein: 10g",2024-11-26,"USDA, WHO",1
+Tomato,Brand_4,"Calories: 59, Carbs: 41g, Protein: 3g",2024-03-17,None,0
+Bittergourd,Brand_2,"Calories: 254, Carbs: 29g, Protein: 5g",2023-12-14,None,0
+Okra,Brand_9,"Calories: 265, Carbs: 16g, Protein: 2g",2024-03-14,None,0
+Cucumber,Brand_8,"Calories: 234, Carbs: 46g, Protein: 8g",2025-03-04,WHO,1
+Oranges,Brand_4,"Calories: 215, Carbs: 9g, Protein: 2g",2024-04-07,None,0
+Oranges,Brand_1,"Calories: 189, Carbs: 25g, Protein: 1g",2024-09-23,FDA,0
+Okra,Brand_9,"Calories: 80, Carbs: 38g, Protein: 6g",2025-03-08,None,0
+Banana,Brand_10,"Calories: 92, Carbs: 32g, Protein: 7g",2024-05-11,EU,0
+Apple,Brand_5,"Calories: 212, Carbs: 16g, Protein: 2g",2025-01-07,EU,1
+Bittergourd,Brand_6,"Calories: 156, Carbs: 9g, Protein: 7g",2025-07-13,None,0
+Tomato,Brand_8,"Calories: 184, Carbs: 41g, Protein: 8g",2024-08-28,USDA,0
+Capsicum,Brand_3,"Calories: 214, Carbs: 28g, Protein: 8g",2025-01-09,None,0
+Pineapple,Brand_10,"Calories: 66, Carbs: 28g, Protein: 2g",2024-11-12,"EU, None",0
+Apple,Brand_3,"Calories: 138, Carbs: 34g, Protein: 10g",2024-06-26,None,0
+Capsicum,Brand_1,"Calories: 93, Carbs: 22g, Protein: 6g",2025-01-07,None,0
+Tomato,Brand_7,"Calories: 57, Carbs: 36g, Protein: 9g",2024-03-17,USDA,0
+Okra,Brand_7,"Calories: 132, Carbs: 10g, Protein: 10g",2025-02-13,None,0
+Tomato,Brand_9,"Calories: 93, Carbs: 35g, Protein: 1g",2024-04-23,None,0
+Pineapple,Brand_7,"Calories: 57, Carbs: 37g, Protein: 3g",2025-03-15,"FSSAI, WHO",1
+Apple,Brand_7,"Calories: 99, Carbs: 39g, Protein: 2g",2024-12-19,None,0
+Bittergourd,Brand_10,"Calories: 101, Carbs: 21g, Protein: 8g",2024-10-07,"FDA, WHO",0
+Potato,Brand_3,"Calories: 159, Carbs: 21g, Protein: 3g",2025-03-03,"USDA, FSSAI",1
+Capsicum,Brand_1,"Calories: 242, Carbs: 21g, Protein: 3g",2023-12-28,"FSSAI, FDA",0
+Okra,Brand_10,"Calories: 148, Carbs: 23g, Protein: 6g",2024-02-17,"WHO, None",0
+Cucumber,Brand_5,"Calories: 170, Carbs: 20g, Protein: 10g",2025-01-16,"USDA, EU",1
+Oranges,Brand_3,"Calories: 231, Carbs: 16g, Protein: 9g",2025-07-14,None,0
+Apple,Brand_9,"Calories: 241, Carbs: 11g, Protein: 10g",2025-01-20,"WHO, USDA",1
+Pineapple,Brand_7,"Calories: 142, Carbs: 17g, Protein: 9g",2025-03-01,None,0
+Apple,Brand_3,"Calories: 154, Carbs: 29g, Protein: 4g",2025-07-07,None,0
+Okra,Brand_6,"Calories: 148, Carbs: 38g, Protein: 7g",2025-06-16,EU,1
+Capsicum,Brand_5,"Calories: 250, Carbs: 28g, Protein: 10g",2024-09-22,"USDA, None",0
+Capsicum,Brand_2,"Calories: 211, Carbs: 20g, Protein: 3g",2023-12-20,None,0
+Tomato,Brand_6,"Calories: 132, Carbs: 8g, Protein: 7g",2025-04-13,None,0
+Tomato,Brand_5,"Calories: 240, Carbs: 35g, Protein: 1g",2025-06-09,"USDA, FSSAI",1
+Potato,Brand_1,"Calories: 232, Carbs: 36g, Protein: 7g",2024-12-12,EU,1
+Cucumber,Brand_9,"Calories: 72, Carbs: 6g, Protein: 4g",2023-12-09,None,0
+Capsicum,Brand_10,"Calories: 204, Carbs: 8g, Protein: 2g",2024-03-23,FDA,0
+Okra,Brand_7,"Calories: 64, Carbs: 23g, Protein: 1g",2024-01-04,"FDA, FSSAI",0
+Potato,Brand_1,"Calories: 196, Carbs: 44g, Protein: 10g",2025-08-29,"FSSAI, None",0
+Potato,Brand_4,"Calories: 70, Carbs: 30g, Protein: 8g",2024-09-12,"USDA, FSSAI",0
+Bittergourd,Brand_3,"Calories: 294, Carbs: 5g, Protein: 10g",2024-11-13,EU,1
+Banana,Brand_10,"Calories: 104, Carbs: 36g, Protein: 1g",2024-12-10,None,0
+Pineapple,Brand_9,"Calories: 135, Carbs: 20g, Protein: 2g",2024-04-15,"USDA, None",0
+Tomato,Brand_10,"Calories: 182, Carbs: 18g, Protein: 3g",2025-03-16,"USDA, WHO",1
+Capsicum,Brand_6,"Calories: 255, Carbs: 19g, Protein: 6g",2024-01-31,None,0
+Bittergourd,Brand_2,"Calories: 198, Carbs: 46g, Protein: 1g",2025-02-01,None,0
+Banana,Brand_7,"Calories: 167, Carbs: 32g, Protein: 2g",2025-01-14,FSSAI,1
+Capsicum,Brand_10,"Calories: 236, Carbs: 39g, Protein: 5g",2024-08-07,USDA,0
+Apple,Brand_8,"Calories: 248, Carbs: 7g, Protein: 10g",2025-10-15,None,0
+Tomato,Brand_8,"Calories: 245, Carbs: 6g, Protein: 3g",2023-11-04,"USDA, WHO",0
+Capsicum,Brand_7,"Calories: 134, Carbs: 21g, Protein: 2g",2024-11-28,FSSAI,1
+Oranges,Brand_9,"Calories: 104, Carbs: 25g, Protein: 6g",2024-07-25,"FSSAI, FDA",0
+Okra,Brand_3,"Calories: 288, Carbs: 22g, Protein: 1g",2024-12-19,USDA,1
+Okra,Brand_4,"Calories: 98, Carbs: 6g, Protein: 7g",2024-12-24,"FSSAI, FDA",1
+Bittergourd,Brand_6,"Calories: 84, Carbs: 43g, Protein: 3g",2025-08-23,None,0
+Potato,Brand_8,"Calories: 50, Carbs: 46g, Protein: 6g",2023-12-12,None,0
+Okra,Brand_3,"Calories: 292, Carbs: 30g, Protein: 2g",2024-10-25,None,0
+Bittergourd,Brand_9,"Calories: 182, Carbs: 33g, Protein: 5g",2025-04-27,None,0
+Bittergourd,Brand_3,"Calories: 215, Carbs: 6g, Protein: 7g",2025-08-20,"None, FSSAI",0
+Potato,Brand_6,"Calories: 213, Carbs: 8g, Protein: 4g",2024-08-21,"FSSAI, EU",0
+Tomato,Brand_6,"Calories: 272, Carbs: 29g, Protein: 1g",2023-12-09,USDA,0
+Oranges,Brand_9,"Calories: 201, Carbs: 10g, Protein: 3g",2024-08-08,USDA,0
+Potato,Brand_9,"Calories: 55, Carbs: 14g, Protein: 9g",2025-07-05,FSSAI,1
+Bittergourd,Brand_9,"Calories: 79, Carbs: 47g, Protein: 5g",2025-02-02,"WHO, None",0
+Bittergourd,Brand_5,"Calories: 179, Carbs: 17g, Protein: 4g",2024-01-05,None,0
+Capsicum,Brand_5,"Calories: 294, Carbs: 36g, Protein: 10g",2024-05-23,"WHO, EU",0
+Tomato,Brand_8,"Calories: 198, Carbs: 16g, Protein: 5g",2023-12-10,"None, EU",0
+Banana,Brand_8,"Calories: 275, Carbs: 48g, Protein: 3g",2024-08-28,None,0
+Okra,Brand_4,"Calories: 287, Carbs: 20g, Protein: 1g",2024-09-24,None,0
+Pineapple,Brand_5,"Calories: 280, Carbs: 39g, Protein: 1g",2024-03-07,None,0
+Capsicum,Brand_4,"Calories: 58, Carbs: 27g, Protein: 4g",2024-02-16,None,0
+Tomato,Brand_9,"Calories: 195, Carbs: 46g, Protein: 4g",2024-02-02,None,0
+Tomato,Brand_6,"Calories: 157, Carbs: 28g, Protein: 8g",2025-03-06,None,0
+Okra,Brand_8,"Calories: 179, Carbs: 43g, Protein: 4g",2024-07-05,FSSAI,0
+Cucumber,Brand_9,"Calories: 282, Carbs: 35g, Protein: 6g",2025-01-12,"USDA, FSSAI",1
+Pineapple,Brand_6,"Calories: 164, Carbs: 38g, Protein: 10g",2024-06-23,"EU, FSSAI",0
+Okra,Brand_9,"Calories: 269, Carbs: 9g, Protein: 1g",2024-10-03,WHO,0
+Apple,Brand_1,"Calories: 242, Carbs: 19g, Protein: 2g",2024-08-06,"USDA, FSSAI",0
+Bittergourd,Brand_3,"Calories: 251, Carbs: 25g, Protein: 8g",2025-06-28,None,0
+Capsicum,Brand_4,"Calories: 118, Carbs: 36g, Protein: 10g",2025-03-30,FDA,1
+Cucumber,Brand_10,"Calories: 155, Carbs: 14g, Protein: 2g",2024-11-29,"USDA, FDA",1
+Bittergourd,Brand_2,"Calories: 281, Carbs: 24g, Protein: 6g",2023-12-02,None,0
+Cucumber,Brand_7,"Calories: 197, Carbs: 13g, Protein: 8g",2025-03-02,None,0
+Oranges,Brand_9,"Calories: 242, Carbs: 13g, Protein: 4g",2025-02-15,None,0
+Tomato,Brand_10,"Calories: 117, Carbs: 23g, Protein: 1g",2024-08-24,EU,0
+Oranges,Brand_4,"Calories: 280, Carbs: 10g, Protein: 7g",2024-05-25,"FDA, WHO",0
+Pineapple,Brand_2,"Calories: 178, Carbs: 14g, Protein: 3g",2024-01-25,"FDA, None",0
+Potato,Brand_7,"Calories: 237, Carbs: 8g, Protein: 3g",2025-01-24,None,0
+Bittergourd,Brand_2,"Calories: 98, Carbs: 30g, Protein: 6g",2025-10-15,"USDA, FSSAI",1
+Bittergourd,Brand_3,"Calories: 280, Carbs: 7g, Protein: 3g",2025-09-16,USDA,1
+Tomato,Brand_6,"Calories: 243, Carbs: 39g, Protein: 5g",2025-04-27,None,0
+Banana,Brand_9,"Calories: 105, Carbs: 49g, Protein: 2g",2024-07-05,WHO,0
+Capsicum,Brand_5,"Calories: 121, Carbs: 30g, Protein: 1g",2024-09-11,"None, FSSAI",0
+Okra,Brand_6,"Calories: 110, Carbs: 24g, Protein: 4g",2025-02-18,WHO,1
+Potato,Brand_2,"Calories: 130, Carbs: 28g, Protein: 2g",2024-06-07,None,0
+Cucumber,Brand_3,"Calories: 258, Carbs: 38g, Protein: 9g",2025-05-10,FSSAI,1
+Pineapple,Brand_8,"Calories: 166, Carbs: 35g, Protein: 3g",2024-09-03,None,0
+Oranges,Brand_6,"Calories: 282, Carbs: 22g, Protein: 1g",2024-09-15,"FSSAI, FDA",0
+Cucumber,Brand_10,"Calories: 98, Carbs: 26g, Protein: 10g",2025-03-07,None,0
+Apple,Brand_2,"Calories: 295, Carbs: 23g, Protein: 4g",2024-12-01,None,0
+Oranges,Brand_3,"Calories: 210, Carbs: 23g, Protein: 6g",2025-03-27,None,0
+Cucumber,Brand_10,"Calories: 256, Carbs: 5g, Protein: 9g",2025-04-02,None,0
+Potato,Brand_3,"Calories: 148, Carbs: 20g, Protein: 9g",2024-02-26,None,0
+Capsicum,Brand_8,"Calories: 101, Carbs: 12g, Protein: 4g",2024-01-27,"USDA, None",0
+Okra,Brand_5,"Calories: 225, Carbs: 29g, Protein: 7g",2025-03-11,None,0
+Bittergourd,Brand_7,"Calories: 252, Carbs: 14g, Protein: 9g",2024-06-25,"EU, WHO",0
+Pineapple,Brand_5,"Calories: 269, Carbs: 18g, Protein: 5g",2024-08-17,None,0
+Potato,Brand_6,"Calories: 215, Carbs: 7g, Protein: 6g",2025-08-21,None,0
+Banana,Brand_9,"Calories: 156, Carbs: 45g, Protein: 3g",2024-04-15,None,0
+Pineapple,Brand_3,"Calories: 74, Carbs: 14g, Protein: 10g",2025-09-13,"EU, USDA",1
+Banana,Brand_4,"Calories: 291, Carbs: 43g, Protein: 5g",2023-11-27,None,0
+Cucumber,Brand_3,"Calories: 169, Carbs: 5g, Protein: 4g",2024-02-25,FDA,0
+Potato,Brand_10,"Calories: 210, Carbs: 5g, Protein: 7g",2025-08-07,"WHO, FDA",1
+Banana,Brand_7,"Calories: 69, Carbs: 42g, Protein: 6g",2024-09-17,None,0
+Bittergourd,Brand_6,"Calories: 64, Carbs: 47g, Protein: 6g",2024-12-01,"FSSAI, EU",1
+Cucumber,Brand_6,"Calories: 247, Carbs: 28g, Protein: 10g",2024-09-26,None,0
+Cucumber,Brand_6,"Calories: 65, Carbs: 38g, Protein: 4g",2024-03-27,None,0
+Oranges,Brand_9,"Calories: 288, Carbs: 30g, Protein: 1g",2025-05-11,"None, USDA",0
+Bittergourd,Brand_3,"Calories: 53, Carbs: 48g, Protein: 1g",2023-10-31,FDA,0
+Cucumber,Brand_9,"Calories: 130, Carbs: 20g, Protein: 10g",2023-12-02,None,0
+Banana,Brand_7,"Calories: 97, Carbs: 12g, Protein: 1g",2023-11-17,None,0
+Okra,Brand_9,"Calories: 122, Carbs: 30g, Protein: 9g",2025-05-07,"FDA, None",0
+Oranges,Brand_9,"Calories: 256, Carbs: 9g, Protein: 4g",2023-11-06,None,0
+Tomato,Brand_10,"Calories: 195, Carbs: 39g, Protein: 4g",2024-11-30,"None, FDA",0
+Oranges,Brand_7,"Calories: 85, Carbs: 19g, Protein: 7g",2025-07-01,FDA,1
+Pineapple,Brand_9,"Calories: 52, Carbs: 6g, Protein: 8g",2024-03-27,WHO,0
+Tomato,Brand_1,"Calories: 87, Carbs: 39g, Protein: 1g",2025-10-01,None,0
+Okra,Brand_1,"Calories: 269, Carbs: 41g, Protein: 10g",2023-12-30,None,0
+Oranges,Brand_8,"Calories: 246, Carbs: 42g, Protein: 7g",2025-05-07,USDA,1
+Oranges,Brand_8,"Calories: 194, Carbs: 28g, Protein: 7g",2024-04-23,None,0
+Cucumber,Brand_8,"Calories: 117, Carbs: 10g, Protein: 3g",2025-06-11,"None, EU",0
+Tomato,Brand_3,"Calories: 249, Carbs: 22g, Protein: 10g",2024-09-23,None,0
+Bittergourd,Brand_10,"Calories: 121, Carbs: 49g, Protein: 4g",2025-02-11,USDA,1
+Apple,Brand_7,"Calories: 108, Carbs: 11g, Protein: 2g",2023-12-11,None,0
+Oranges,Brand_8,"Calories: 143, Carbs: 24g, Protein: 2g",2025-03-12,None,0
+Banana,Brand_8,"Calories: 177, Carbs: 37g, Protein: 4g",2024-10-10,"USDA, EU",0
+Cucumber,Brand_8,"Calories: 248, Carbs: 6g, Protein: 10g",2024-12-19,None,0
+Oranges,Brand_10,"Calories: 300, Carbs: 10g, Protein: 3g",2024-09-21,EU,0
+Potato,Brand_6,"Calories: 262, Carbs: 11g, Protein: 4g",2025-05-12,"WHO, FSSAI",1
+Capsicum,Brand_6,"Calories: 191, Carbs: 9g, Protein: 3g",2024-04-12,"USDA, None",0
+Tomato,Brand_9,"Calories: 64, Carbs: 26g, Protein: 9g",2024-01-03,"FSSAI, EU",0
+Oranges,Brand_4,"Calories: 218, Carbs: 18g, Protein: 7g",2024-02-29,"EU, None",0
+Okra,Brand_7,"Calories: 106, Carbs: 27g, Protein: 5g",2024-03-19,"WHO, FSSAI",0
+Okra,Brand_3,"Calories: 281, Carbs: 15g, Protein: 8g",2025-10-10,"FSSAI, USDA",1
+Banana,Brand_8,"Calories: 208, Carbs: 25g, Protein: 10g",2024-09-01,None,0
+Tomato,Brand_8,"Calories: 213, Carbs: 26g, Protein: 3g",2024-12-19,None,0
+Capsicum,Brand_3,"Calories: 260, Carbs: 48g, Protein: 8g",2024-08-16,"None, WHO",0
+Bittergourd,Brand_7,"Calories: 224, Carbs: 42g, Protein: 7g",2025-02-02,"FSSAI, WHO",1
+Tomato,Brand_3,"Calories: 280, Carbs: 39g, Protein: 5g",2025-03-20,None,0
+Banana,Brand_3,"Calories: 139, Carbs: 29g, Protein: 7g",2025-10-19,"EU, FDA",1
+Cucumber,Brand_4,"Calories: 154, Carbs: 18g, Protein: 5g",2025-05-28,None,0
+Oranges,Brand_6,"Calories: 63, Carbs: 14g, Protein: 3g",2023-11-23,EU,0
+Apple,Brand_1,"Calories: 57, Carbs: 30g, Protein: 6g",2025-01-23,None,0
+Capsicum,Brand_7,"Calories: 160, Carbs: 20g, Protein: 3g",2023-11-04,"WHO, FSSAI",0
+Pineapple,Brand_8,"Calories: 209, Carbs: 50g, Protein: 3g",2025-03-04,None,0
+Capsicum,Brand_5,"Calories: 171, Carbs: 39g, Protein: 8g",2024-03-25,None,0
+Tomato,Brand_5,"Calories: 270, Carbs: 26g, Protein: 8g",2024-12-26,"USDA, None",0
+Cucumber,Brand_3,"Calories: 267, Carbs: 33g, Protein: 7g",2024-07-03,None,0
+Oranges,Brand_10,"Calories: 244, Carbs: 10g, Protein: 3g",2025-10-23,"WHO, EU",1
+Okra,Brand_10,"Calories: 191, Carbs: 23g, Protein: 9g",2025-04-20,"WHO, EU",1
+Pineapple,Brand_3,"Calories: 192, Carbs: 14g, Protein: 3g",2023-12-14,FSSAI,0
+Okra,Brand_6,"Calories: 237, Carbs: 43g, Protein: 1g",2025-04-16,EU,1
+Oranges,Brand_4,"Calories: 139, Carbs: 48g, Protein: 5g",2024-04-13,None,0
+Bittergourd,Brand_2,"Calories: 124, Carbs: 8g, Protein: 2g",2024-10-23,"USDA, WHO",0
+Banana,Brand_6,"Calories: 86, Carbs: 39g, Protein: 6g",2025-10-06,None,0
+Apple,Brand_4,"Calories: 164, Carbs: 11g, Protein: 9g",2025-04-17,FDA,1
+Potato,Brand_9,"Calories: 128, Carbs: 28g, Protein: 8g",2024-08-07,"FSSAI, EU",0
+Okra,Brand_3,"Calories: 83, Carbs: 34g, Protein: 3g",2025-02-23,None,0
+Bittergourd,Brand_5,"Calories: 149, Carbs: 33g, Protein: 5g",2023-12-10,None,0
+Tomato,Brand_5,"Calories: 283, Carbs: 16g, Protein: 8g",2024-12-25,"None, WHO",0
+Apple,Brand_7,"Calories: 101, Carbs: 46g, Protein: 3g",2024-03-24,"USDA, FSSAI",0
+Capsicum,Brand_1,"Calories: 281, Carbs: 44g, Protein: 9g",2024-10-08,None,0
+Bittergourd,Brand_8,"Calories: 74, Carbs: 18g, Protein: 1g",2024-11-04,USDA,1
+Apple,Brand_8,"Calories: 247, Carbs: 45g, Protein: 3g",2024-07-03,None,0
+Okra,Brand_2,"Calories: 280, Carbs: 36g, Protein: 2g",2024-01-01,None,0
+Tomato,Brand_6,"Calories: 137, Carbs: 39g, Protein: 1g",2024-07-16,None,0
+Tomato,Brand_1,"Calories: 170, Carbs: 21g, Protein: 5g",2025-04-25,FSSAI,1
+Potato,Brand_8,"Calories: 63, Carbs: 43g, Protein: 7g",2024-11-22,None,0
+Capsicum,Brand_2,"Calories: 191, Carbs: 34g, Protein: 4g",2024-03-15,USDA,0
+Oranges,Brand_9,"Calories: 270, Carbs: 22g, Protein: 10g",2024-10-05,"FSSAI, EU",0
+Bittergourd,Brand_4,"Calories: 149, Carbs: 49g, Protein: 3g",2024-02-11,"FSSAI, None",0
+Oranges,Brand_8,"Calories: 159, Carbs: 50g, Protein: 5g",2024-05-14,None,0
+Pineapple,Brand_7,"Calories: 282, Carbs: 16g, Protein: 9g",2024-04-09,FDA,0
+Cucumber,Brand_9,"Calories: 137, Carbs: 44g, Protein: 8g",2025-04-12,EU,1
+Cucumber,Brand_1,"Calories: 167, Carbs: 27g, Protein: 2g",2025-03-22,FDA,1
+Bittergourd,Brand_3,"Calories: 241, Carbs: 41g, Protein: 8g",2024-04-06,None,0
+Capsicum,Brand_9,"Calories: 231, Carbs: 50g, Protein: 4g",2024-01-02,USDA,0
+Capsicum,Brand_6,"Calories: 244, Carbs: 32g, Protein: 3g",2025-09-09,None,0
+Banana,Brand_4,"Calories: 251, Carbs: 27g, Protein: 8g",2024-05-31,None,0
+Cucumber,Brand_10,"Calories: 88, Carbs: 17g, Protein: 6g",2023-10-27,None,0
+Potato,Brand_2,"Calories: 50, Carbs: 5g, Protein: 4g",2024-05-15,"FDA, EU",0
+Oranges,Brand_10,"Calories: 90, Carbs: 15g, Protein: 1g",2024-07-03,None,0
+Pineapple,Brand_3,"Calories: 174, Carbs: 50g, Protein: 9g",2024-07-29,"FSSAI, USDA",0
+Oranges,Brand_9,"Calories: 248, Carbs: 11g, Protein: 10g",2024-12-03,"None, FSSAI",0
+Pineapple,Brand_6,"Calories: 187, Carbs: 6g, Protein: 2g",2025-06-10,"None, EU",0
+Bittergourd,Brand_6,"Calories: 204, Carbs: 31g, Protein: 8g",2024-02-07,FSSAI,0
+Tomato,Brand_3,"Calories: 263, Carbs: 48g, Protein: 10g",2024-10-25,None,0
+Oranges,Brand_6,"Calories: 275, Carbs: 18g, Protein: 6g",2024-05-26,None,0
+Capsicum,Brand_10,"Calories: 57, Carbs: 25g, Protein: 5g",2023-12-29,WHO,0
+Potato,Brand_6,"Calories: 217, Carbs: 38g, Protein: 1g",2024-11-13,"USDA, EU",1

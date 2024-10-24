@@ -8,6 +8,10 @@ import {
     Card,
     LinearProgress,
     Alert,
+    Box,
+    List,
+    ListItem,
+    ListItemText,
 } from "@mui/material";
 import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
 
@@ -29,6 +33,7 @@ function App() {
         expiration_date: "",
         regulatory_notes: "",
     });
+    const [batchDocuments, setBatchDocuments] = useState([]);
     const [batchFiles, setBatchFiles] = useState([]);
 
     useEffect(() => {
@@ -168,12 +173,17 @@ function App() {
         }
     };
 
-    const handleBatchSubmit = async (event) => {
+    const handleBatchSubmit = (event) => {
         event.preventDefault();
-        // Here you can implement the functionality to handle batch info submission
-        console.log("Batch info submitted:", batchInfo);
-        console.log("Batch files selected:", batchFiles);
-        // Reset the form after submission
+        if (Object.values(batchInfo).some((value) => value.trim() === "")) {
+            setError("Please fill out all fields");
+            return;
+        }
+
+        // Add batch document info to the state
+        setBatchDocuments((prev) => [...prev, { ...batchInfo }]);
+
+        // Reset batch info and files after submission
         setBatchInfo({
             product_name: "",
             brand: "",
@@ -182,6 +192,20 @@ function App() {
             regulatory_notes: "",
         });
         setBatchFiles([]);
+        setError(null);
+    };
+
+    const handleSaveJSON = () => {
+        const jsonData = { products: batchDocuments };
+        const blob = new Blob([JSON.stringify(jsonData, null, 2)], {
+            type: "application/json",
+        });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "batch_documents.json";
+        a.click();
+        URL.revokeObjectURL(url);
     };
 
     // Data for Pie Chart
@@ -362,6 +386,33 @@ function App() {
                     Submit Batch Document
                 </Button>
             </form>
+
+            {/* Displaying batch document titles */}
+            {batchDocuments.length > 0 && (
+                <Box sx={{ marginTop: 4 }}>
+                    <Typography variant="h6" gutterBottom>
+                        Uploaded Batch Document Titles:
+                    </Typography>
+                    <List>
+                        {batchDocuments.map((doc, index) => (
+                            <ListItem key={index}>
+                                <ListItemText
+                                    primary={doc.product_name}
+                                    secondary={`Brand: ${doc.brand}, Expiry: ${doc.expiration_date}`}
+                                />
+                            </ListItem>
+                        ))}
+                    </List>
+                    <Button
+                        variant="contained"
+                        color="secondary"
+                        onClick={handleSaveJSON}
+                        sx={{ mt: 2 }}
+                    >
+                        Download Batch Documents as JSON
+                    </Button>
+                </Box>
+            )}
         </Container>
     );
 }

@@ -34,7 +34,6 @@ function App() {
         regulatory_notes: "",
     });
     const [batchDocuments, setBatchDocuments] = useState([]);
-    const [batchFiles, setBatchFiles] = useState([]);
 
     useEffect(() => {
         checkServerStatus();
@@ -42,7 +41,7 @@ function App() {
 
     const checkServerStatus = async () => {
         try {
-            await axios.get(`${BACKEND_URL}/health`);
+            await axios.get(BACKEND_URL + "/health");
             setServerStatus("connected");
         } catch (error) {
             setServerStatus("disconnected");
@@ -369,12 +368,6 @@ function App() {
                             })
                         }
                         required
-                    />
-                    <input
-                        type="file"
-                        onChange={handleBatchFileSelect}
-                        accept=".doc,.docx,.pdf" // Allowing document file types
-                        multiple
                     />
                 </Card>
                 <Button

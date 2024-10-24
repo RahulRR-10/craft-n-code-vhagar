@@ -16,7 +16,7 @@ const upload = multer({ storage: storage });
 
 // Configure CORS to accept requests from your React app
 const corsOptions = {
-    origin: ["http://localhost:3000", "http://192.168.1.9:3000"],
+    origin: ["http://192.168.1.9:3000"], // Replace with your React app's origin
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
     credentials: true,
@@ -41,9 +41,12 @@ app.get("/health", (req, res) => {
     res.json({ status: "Server is running" });
 });
 
+app.get("/", (req, res) => {
+    res.json({ status: "Server is running" });
+});
+
 // Endpoint to analyze multiple images
 app.post("/api/analyze", upload.array("images", 20), async (req, res) => {
-    // Use upload.array for multiple files
     try {
         if (!req.files || req.files.length === 0) {
             return res.status(400).json({ error: "No image files provided" });
@@ -77,6 +80,7 @@ app.post("/api/analyze", upload.array("images", 20), async (req, res) => {
     }
 });
 
+// Start the server
 app.listen(port, "0.0.0.0", () => {
     console.log(`Server running on http://0.0.0.0:${port}`);
 });

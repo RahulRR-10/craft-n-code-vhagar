@@ -1,19 +1,25 @@
 from flask import Flask, request, jsonify
-import pandas as pd
 import torch
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
-
+from flask_cors import CORS
+PORT = 3157
 # Load the trained model and tokenizer
 model = DistilBertForSequenceClassification.from_pretrained('../compliance_doc_model')
 tokenizer = DistilBertTokenizer.from_pretrained('../compliance_doc_model')
 
 app = Flask(__name__)
+CORS(app)
+
+@app.route('/', methods=['GET'])
+def main():
+    return jsonify({'success': '0'}), 200
+
 
 @app.route('/predict', methods=['POST'])
 def predict():
     # Get JSON data from the request
     data = request.get_json(force=True)
-
+    print(data)
     # Expecting a list of products
     if 'products' not in data:
         return jsonify({'error': 'No products found in the request'}), 400
@@ -56,5 +62,6 @@ def predict():
 if __name__ == '__main__':
     # Print a message indicating the app is running
     print("Starting Flask app...")
-    print("App is running at http://127.0.0.1:5000")
-    app.run(debug=True)
+    print(f"App is running at http://0.0.0.0:{PORT}")
+    app.run(host='0.0.0.0', port=PORT, debug=True)
+

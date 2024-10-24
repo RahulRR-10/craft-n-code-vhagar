@@ -1,31 +1,74 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import {
+    Box,
     Button,
-    Container,
+    Card,
+    CardContent,
     Typography,
     TextField,
-    Card,
-    LinearProgress,
     Alert,
-    Box,
-    List,
-    ListItem,
-    ListItemText,
+    LinearProgress,
+    Container,
+    Grid,
+    Paper,
+    IconButton,
+    Input,
 } from "@mui/material";
-import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
+import { styled } from "@mui/material/styles";
+import CloudUploadIcon from "@mui/icons-material/CloudUpload";
+import {
+    LineChart,
+    Line,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip,
+    Legend,
+    ResponsiveContainer,
+} from "recharts";
 
 const BACKEND_URL = "http://192.168.1.9:5000";
-const BATCH_SIZE = 5; // Number of files to upload in each request
+const BATCH_SIZE = 5;
 
-function App() {
+// Styled components
+const VisuallyHiddenInput = styled("input")({
+    clip: "rect(0 0 0 0)",
+    clipPath: "inset(50%)",
+    height: 1,
+    overflow: "hidden",
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    whiteSpace: "nowrap",
+    width: 1,
+});
+
+const UploadBox = styled(Paper)(({ theme }) => ({
+    border: `2px dashed ${theme.palette.grey[300]}`,
+    borderRadius: theme.shape.borderRadius,
+    padding: theme.spacing(3),
+    textAlign: "center",
+    cursor: "pointer",
+    transition: "border-color 0.3s ease-in-out",
+    "&:hover": {
+        borderColor: theme.palette.primary.main,
+    },
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: theme.spacing(1),
+}));
+
+const ProductAnalyzer = () => {
+    // State management
+    const [serverStatus, setServerStatus] = useState("checking");
     const [selectedFiles, setSelectedFiles] = useState([]);
-    const [predictions, setPredictions] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
-    const [serverStatus, setServerStatus] = useState("checking");
     const [freshCount, setFreshCount] = useState(0);
     const [rottenCount, setRottenCount] = useState(0);
+    const [predictions, setPredictions] = useState([]);
     const [batchInfo, setBatchInfo] = useState({
         product_name: "",
         brand: "",
@@ -41,31 +84,13 @@ function App() {
 
     const checkServerStatus = async () => {
         try {
-            await axios.get(BACKEND_URL + "/health");
+            await axios.get(`${BACKEND_URL}/health`);
             setServerStatus("connected");
         } catch (error) {
             setServerStatus("disconnected");
             setError(
                 "Cannot connect to server. Please ensure the backend is running."
             );
-        }
-    };
-
-    const handleFileSelect = (event) => {
-        const files = Array.from(event.target.files);
-        if (files.length > 0) {
-            setSelectedFiles(files);
-            setPredictions([]);
-            setError(null);
-            setFreshCount(0);
-            setRottenCount(0);
-        }
-    };
-
-    const handleBatchFileSelect = (event) => {
-        const files = Array.from(event.target.files);
-        if (files.length > 0) {
-            setBatchFiles(files);
         }
     };
 
@@ -91,7 +116,18 @@ function App() {
             : null;
     };
 
-    const handleSubmit = async (event) => {
+    const handleFileSelect = (event) => {
+        const files = Array.from(event.target.files || []);
+        if (files.length > 0) {
+            setSelectedFiles(files);
+            setPredictions([]);
+            setError(null);
+            setFreshCount(0);
+            setRottenCount(0);
+        }
+    };
+
+    const handleAnalyze = async (event) => {
         event.preventDefault();
         if (selectedFiles.length === 0) {
             setError("Please select images first");
@@ -101,12 +137,11 @@ function App() {
         setLoading(true);
         setError(null);
 
-        let freshImageCount = 0;
-        let rottenImageCount = 0;
-        const allPredictions = [];
-
         try {
-            // Process files in batches
+            let freshImageCount = 0;
+            let rottenImageCount = 0;
+            const allPredictions = [];
+
             for (let i = 0; i < selectedFiles.length; i += BATCH_SIZE) {
                 const batch = selectedFiles.slice(i, i + BATCH_SIZE);
                 const predictionsArr = await Promise.all(
@@ -129,17 +164,17 @@ function App() {
                             response.data.predictions
                         );
 
-                        if (filteredPrediction && filteredPrediction.tagName) {
+                        if (filteredPrediction?.tagName) {
                             if (
                                 filteredPrediction.tagName.toLowerCase() ===
                                 "fresh"
                             ) {
-                                freshImageCount++; // Count how many are "fresh"
+                                freshImageCount++;
                             } else if (
                                 filteredPrediction.tagName.toLowerCase() ===
                                 "rotten"
                             ) {
-                                rottenImageCount++; // Count how many are "rotten"
+                                rottenImageCount++;
                             }
                         }
 
@@ -151,38 +186,49 @@ function App() {
             }
 
             setPredictions(allPredictions);
-            setFreshCount(freshImageCount); // Set the count of fresh images
-            setRottenCount(rottenImageCount); // Set the count of rotten images
+            setFreshCount(freshImageCount);
+            setRottenCount(rottenImageCount);
         } catch (error) {
             console.error("Error uploading images:", error);
-            let errorMessage = "Error analyzing images. ";
-
-            if (error.response) {
-                errorMessage +=
-                    error.response.data.error || error.response.statusText;
-            } else if (error.code === "ECONNABORTED") {
-                errorMessage += "Request timed out. Please try again.";
-            } else {
-                errorMessage += "Please check your connection and try again.";
-            }
-
-            setError(errorMessage);
+            const errorMessage =
+                error.response?.data?.error || error.code === "ECONNABORTED"
+                    ? "Request timed out. Please try again."
+                    : "Please check your connection and try again.";
+            setError(`Error analyzing images. ${errorMessage}`);
         } finally {
             setLoading(false);
         }
     };
 
-    const handleBatchSubmit = (event) => {
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setBatchInfo((prev) => ({
+            ...prev,
+            [name]: value,
+        }));
+    };
+
+    const handleSubmit = (event) => {
         event.preventDefault();
         if (Object.values(batchInfo).some((value) => value.trim() === "")) {
             setError("Please fill out all fields");
             return;
         }
 
-        // Add batch document info to the state
-        setBatchDocuments((prev) => [...prev, { ...batchInfo }]);
+        const enrichedBatchInfo = {
+            ...batchInfo,
+            quality_analysis: {
+                fresh_count: freshCount,
+                rotten_count: rottenCount,
+                total_analyzed: selectedFiles.length,
+                fresh_percentage: (
+                    (freshCount / selectedFiles.length) *
+                    100
+                ).toFixed(2),
+            },
+        };
 
-        // Reset batch info and files after submission
+        setBatchDocuments((prev) => [...prev, enrichedBatchInfo]);
         setBatchInfo({
             product_name: "",
             brand: "",
@@ -190,7 +236,6 @@ function App() {
             expiration_date: "",
             regulatory_notes: "",
         });
-        setBatchFiles([]);
         setError(null);
     };
 
@@ -200,214 +245,245 @@ function App() {
             type: "application/json",
         });
         const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = "batch_documents.json";
-        a.click();
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "products.json";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
         URL.revokeObjectURL(url);
     };
 
-    // Data for Pie Chart
-    const pieData = [
-        { name: "Fresh", value: freshCount },
-        { name: "Rotten", value: rottenCount },
-    ];
+    const chartData = predictions.map((pred, index) => ({
+        name: `Sample ${index + 1}`,
+        probability: parseFloat(pred.probability) * 100,
+    }));
 
     return (
-        <Container maxWidth="sm" sx={{ py: 4 }}>
-            <Typography variant="h4" component="h1" gutterBottom align="center">
-                Food Quality Analyzer
-            </Typography>
+        <Container maxWidth="xl" sx={{ py: 4 }}>
+            <Grid container spacing={4}>
+                {/* Image Analysis Section */}
+                <Grid item xs={12} md={6}>
+                    <Card elevation={3}>
+                        <CardContent>
+                            <Typography variant="h5" gutterBottom>
+                                Product Quality Analysis
+                            </Typography>
+                            <Typography
+                                variant="body2"
+                                color="text.secondary"
+                                gutterBottom
+                            >
+                                Upload images for AI analysis
+                            </Typography>
 
-            {serverStatus === "disconnected" && (
-                <Alert severity="error" sx={{ mb: 2 }}>
-                    Server connection failed. Please ensure the backend server
-                    is running on {BACKEND_URL}.
-                </Alert>
-            )}
+                            {serverStatus === "disconnected" && (
+                                <Alert severity="error" sx={{ mb: 2 }}>
+                                    Server connection failed. Please ensure the
+                                    backend server is running.
+                                </Alert>
+                            )}
 
-            <form onSubmit={handleSubmit} noValidate>
-                <Card variant="outlined" sx={{ p: 3, mb: 2 }}>
-                    <TextField
-                        type="file"
-                        fullWidth
-                        onChange={handleFileSelect}
-                        inputProps={{ accept: "image/*", multiple: true }}
-                    />
-                </Card>
+                            {error && (
+                                <Alert severity="error" sx={{ mb: 2 }}>
+                                    {error}
+                                </Alert>
+                            )}
 
-                <Button
-                    variant="contained"
-                    color="primary"
-                    fullWidth
-                    type="submit"
-                    disabled={
-                        selectedFiles.length === 0 ||
-                        loading ||
-                        serverStatus === "disconnected"
-                    }
-                >
-                    {loading ? "Analyzing..." : "Analyze Images"}
-                </Button>
+                            <Box sx={{ mt: 2, mb: 3 }}>
+                                <UploadBox>
+                                    <Button
+                                        component="label"
+                                        variant="text"
+                                        startIcon={<CloudUploadIcon />}
+                                    >
+                                        Upload Images
+                                        <VisuallyHiddenInput
+                                            type="file"
+                                            multiple
+                                            onChange={handleFileSelect}
+                                            accept="image/*"
+                                        />
+                                    </Button>
+                                    <Typography
+                                        variant="body2"
+                                        color="text.secondary"
+                                    >
+                                        {selectedFiles.length > 0
+                                            ? `${selectedFiles.length} files selected`
+                                            : "Click to select images"}
+                                    </Typography>
+                                </UploadBox>
+                            </Box>
 
-                {loading && <LinearProgress sx={{ mt: 2 }} />}
-            </form>
+                            <Button
+                                variant="contained"
+                                fullWidth
+                                onClick={handleAnalyze}
+                                disabled={
+                                    selectedFiles.length === 0 ||
+                                    loading ||
+                                    serverStatus === "disconnected"
+                                }
+                            >
+                                {loading ? "Analyzing..." : "Analyze Images"}
+                            </Button>
 
-            {error && (
-                <Alert severity="error" sx={{ mt: 2 }}>
-                    {error}
-                </Alert>
-            )}
+                            {loading && <LinearProgress sx={{ mt: 2 }} />}
 
-            {predictions.length > 0 && (
-                <div style={{ marginTop: "24px" }}>
-                    <Typography variant="h6" gutterBottom>
-                        Results:
-                    </Typography>
-                    <PieChart width={300} height={300}>
-                        <Pie
-                            data={pieData}
-                            cx="50%"
-                            cy="50%"
-                            labelLine={false}
-                            outerRadius={80}
-                            fill="#8884d8"
-                            dataKey="value"
-                        >
-                            {pieData.map((entry, index) => (
-                                <Cell
-                                    key={`cell-${index}`}
-                                    fill={index === 0 ? "#4caf50" : "#f44336"}
-                                />
-                            ))}
-                        </Pie>
-                        <Tooltip />
-                        <Legend />
-                    </PieChart>
-                    <Typography variant="h6" color="primary">
-                        Fresh Fruits: {freshCount} / {selectedFiles.length}
-                    </Typography>
-                    <Typography variant="h6" color="primary">
-                        Percentage of Fresh Fruits:{" "}
-                        {((freshCount / selectedFiles.length) * 100).toFixed(2)}
-                        %
-                    </Typography>
-                </div>
-            )}
+                            {predictions.length > 0 && (
+                                <Box sx={{ mt: 4 }}>
+                                    <Typography variant="h6" gutterBottom>
+                                        Analysis Results
+                                    </Typography>
+                                    <Box sx={{ mb: 2 }}>
+                                        <Typography>
+                                            Fresh Items: {freshCount} /{" "}
+                                            {selectedFiles.length}
+                                        </Typography>
+                                        <Typography>
+                                            Fresh Percentage:{" "}
+                                            {(
+                                                (freshCount /
+                                                    selectedFiles.length) *
+                                                100
+                                            ).toFixed(2)}
+                                            %
+                                        </Typography>
+                                    </Box>
 
-            {/* Batch Document Form */}
-            <form
-                onSubmit={handleBatchSubmit}
-                noValidate
-                style={{ marginTop: "24px" }}
-            >
-                <Card variant="outlined" sx={{ p: 3, mb: 2 }}>
-                    <Typography variant="h6" gutterBottom>
-                        Batch Document Information
-                    </Typography>
-                    <TextField
-                        label="Product Name"
-                        fullWidth
-                        value={batchInfo.product_name}
-                        onChange={(e) =>
-                            setBatchInfo({
-                                ...batchInfo,
-                                product_name: e.target.value,
-                            })
-                        }
-                        required
-                    />
-                    <TextField
-                        label="Brand"
-                        fullWidth
-                        value={batchInfo.brand}
-                        onChange={(e) =>
-                            setBatchInfo({
-                                ...batchInfo,
-                                brand: e.target.value,
-                            })
-                        }
-                        required
-                    />
-                    <TextField
-                        label="Nutritional Value"
-                        fullWidth
-                        value={batchInfo.nutritional_info}
-                        onChange={(e) =>
-                            setBatchInfo({
-                                ...batchInfo,
-                                nutritional_info: e.target.value,
-                            })
-                        }
-                        required
-                    />
-                    <TextField
-                        label="Expiry Date"
-                        type="date"
-                        fullWidth
-                        value={batchInfo.expiration_date}
-                        onChange={(e) =>
-                            setBatchInfo({
-                                ...batchInfo,
-                                expiration_date: e.target.value,
-                            })
-                        }
-                        required
-                        InputLabelProps={{
-                            shrink: true,
-                        }}
-                    />
-                    <TextField
-                        label="Regulatory Notes"
-                        fullWidth
-                        value={batchInfo.regulatory_notes}
-                        onChange={(e) =>
-                            setBatchInfo({
-                                ...batchInfo,
-                                regulatory_notes: e.target.value,
-                            })
-                        }
-                        required
-                    />
-                </Card>
-                <Button
-                    variant="contained"
-                    color="primary"
-                    fullWidth
-                    type="submit"
-                >
-                    Submit Batch Document
-                </Button>
-            </form>
+                                    <Box sx={{ height: 300, width: "100%" }}>
+                                        <ResponsiveContainer>
+                                            <LineChart data={chartData}>
+                                                <CartesianGrid strokeDasharray="3 3" />
+                                                <XAxis dataKey="name" />
+                                                <YAxis />
+                                                <Tooltip />
+                                                <Legend />
+                                                <Line
+                                                    type="monotone"
+                                                    dataKey="probability"
+                                                    stroke="#1976d2"
+                                                    strokeWidth={2}
+                                                />
+                                            </LineChart>
+                                        </ResponsiveContainer>
+                                    </Box>
+                                </Box>
+                            )}
+                        </CardContent>
+                    </Card>
+                </Grid>
 
-            {/* Displaying batch document titles */}
-            {batchDocuments.length > 0 && (
-                <Box sx={{ marginTop: 4 }}>
-                    <Typography variant="h6" gutterBottom>
-                        Uploaded Batch Document Titles:
-                    </Typography>
-                    <List>
-                        {batchDocuments.map((doc, index) => (
-                            <ListItem key={index}>
-                                <ListItemText
-                                    primary={doc.product_name}
-                                    secondary={`Brand: ${doc.brand}, Expiry: ${doc.expiration_date}`}
-                                />
-                            </ListItem>
-                        ))}
-                    </List>
-                    <Button
-                        variant="contained"
-                        color="secondary"
-                        onClick={handleSaveJSON}
-                        sx={{ mt: 2 }}
-                    >
-                        Download Batch Documents as JSON
-                    </Button>
-                </Box>
-            )}
+                {/* Product Details Form */}
+                <Grid item xs={12} md={6}>
+                    <Card elevation={3}>
+                        <CardContent>
+                            <Typography variant="h5" gutterBottom>
+                                Product Details
+                            </Typography>
+                            <Typography
+                                variant="body2"
+                                color="text.secondary"
+                                gutterBottom
+                            >
+                                Enter product information
+                            </Typography>
+
+                            <Box
+                                component="form"
+                                onSubmit={handleSubmit}
+                                sx={{ mt: 2 }}
+                            >
+                                <Grid container spacing={2}>
+                                    <Grid item xs={12}>
+                                        <TextField
+                                            fullWidth
+                                            label="Product Name"
+                                            name="product_name"
+                                            value={batchInfo.product_name}
+                                            onChange={handleInputChange}
+                                            required
+                                            variant="outlined"
+                                        />
+                                    </Grid>
+                                    <Grid item xs={12}>
+                                        <TextField
+                                            fullWidth
+                                            label="Brand"
+                                            name="brand"
+                                            value={batchInfo.brand}
+                                            onChange={handleInputChange}
+                                            required
+                                            variant="outlined"
+                                        />
+                                    </Grid>
+                                    <Grid item xs={12}>
+                                        <TextField
+                                            fullWidth
+                                            label="Nutritional Info"
+                                            name="nutritional_info"
+                                            value={batchInfo.nutritional_info}
+                                            onChange={handleInputChange}
+                                            required
+                                            variant="outlined"
+                                        />
+                                    </Grid>
+                                    <Grid item xs={12}>
+                                        <TextField
+                                            fullWidth
+                                            type="date"
+                                            label="Expiration Date"
+                                            name="expiration_date"
+                                            value={batchInfo.expiration_date}
+                                            onChange={handleInputChange}
+                                            required
+                                            variant="outlined"
+                                            InputLabelProps={{ shrink: true }}
+                                        />
+                                    </Grid>
+                                    <Grid item xs={12}>
+                                        <TextField
+                                            fullWidth
+                                            multiline
+                                            rows={4}
+                                            label="Regulatory Notes"
+                                            name="regulatory_notes"
+                                            value={batchInfo.regulatory_notes}
+                                            onChange={handleInputChange}
+                                            variant="outlined"
+                                        />
+                                    </Grid>
+                                    <Grid item xs={12}>
+                                        <Button
+                                            type="submit"
+                                            variant="contained"
+                                            fullWidth
+                                            size="large"
+                                        >
+                                            Save Product
+                                        </Button>
+                                    </Grid>
+                                    {batchDocuments.length > 0 && (
+                                        <Grid item xs={12}>
+                                            <Button
+                                                variant="outlined"
+                                                fullWidth
+                                                onClick={handleSaveJSON}
+                                                size="large"
+                                            >
+                                                Download JSON
+                                            </Button>
+                                        </Grid>
+                                    )}
+                                </Grid>
+                            </Box>
+                        </CardContent>
+                    </Card>
+                </Grid>
+            </Grid>
         </Container>
     );
-}
+};
 
-export default App;
+export default ProductAnalyzer;

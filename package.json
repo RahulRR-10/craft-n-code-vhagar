@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.5",
+    "express-rate-limit": "^7.4.1",
+    "lucide-react": "^0.453.0",
     "recharts": "^2.13.0"
+  },
+  "devDependencies": {
+    "@shadcn/ui": "^0.0.4"
   }
 }

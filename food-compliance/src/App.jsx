@@ -29,6 +29,7 @@ import {
 } from "recharts";
 
 const BACKEND_URL = "http://192.168.1.9:5000";
+const BACKEND_URL_FLASK = "http://192.168.1.9:3157";
 const BATCH_SIZE = 5;
 
 // Styled components
@@ -76,7 +77,6 @@ const ProductAnalyzer = () => {
         expiration_date: "",
         regulatory_notes: "",
     });
-    const [batchDocuments, setBatchDocuments] = useState([]);
 
     useEffect(() => {
         checkServerStatus();
@@ -228,7 +228,21 @@ const ProductAnalyzer = () => {
             },
         };
 
-        setBatchDocuments((prev) => [...prev, enrichedBatchInfo]);
+        fetch(BACKEND_URL_FLASK + "/predict", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ products: [batchInfo] }),
+        })
+            .then((response) => response.json()) // Parse the JSON response
+            .then((data) => {
+                console.log("Success:", data); // Handle the data from the response
+            })
+            .catch((error) => {
+                console.error("Error:", error); // Handle any errors
+            });
+
         setBatchInfo({
             product_name: "",
             brand: "",
@@ -237,21 +251,6 @@ const ProductAnalyzer = () => {
             regulatory_notes: "",
         });
         setError(null);
-    };
-
-    const handleSaveJSON = () => {
-        const jsonData = { products: batchDocuments };
-        const blob = new Blob([JSON.stringify(jsonData, null, 2)], {
-            type: "application/json",
-        });
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement("a");
-        link.href = url;
-        link.download = "products.json";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        URL.revokeObjectURL(url);
     };
 
     const chartData = predictions.map((pred, index) => ({
@@ -464,18 +463,6 @@ const ProductAnalyzer = () => {
                                             Save Product
                                         </Button>
                                     </Grid>
-                                    {batchDocuments.length > 0 && (
-                                        <Grid item xs={12}>
-                                            <Button
-                                                variant="outlined"
-                                                fullWidth
-                                                onClick={handleSaveJSON}
-                                                size="large"
-                                            >
-                                                Download JSON
-                                            </Button>
-                                        </Grid>
-                                    )}
                                 </Grid>
                             </Box>
                         </CardContent>

@@ -136,20 +136,8 @@ python app.py  # or your specific start command
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## 👥 Team
 
--   [Developer Name] - _Initial work_ - [GitHub Profile]
--   [Developer Name] - _Initial work_ - [GitHub Profile]
 
-## 📞 Support
-
-For support, email [your-email@example.com] or create an issue in the repository.
-
-## 🙏 Acknowledgments
-
--   List any third-party services used
--   Credits to external libraries and frameworks
--   Mention any inspiration sources
 
 ## 📊 Project Status
 
